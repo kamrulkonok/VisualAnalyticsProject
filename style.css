@@ -1,0 +1,97 @@
+/* General page styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  padding: 20px 15px;
+  background: linear-gradient(45deg, #daa209, #0f52bf);
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Main content container */
+main {
+  padding: 20px;
+}
+
+#chart-container {
+  display: flex;
+  justify-content: space-between; /* Ensures alignment between chart and insights */
+  align-items: flex-start;
+  gap: 40px; /* Increased gap for better spacing */
+}
+
+/* Chart styling */
+#chart {
+  flex: 2; /* Adjusted for larger size */
+  width: 70%; /* Increased width */
+  height: auto; /* Maintain aspect ratio */
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Tooltip/Information panel */
+.tooltip-info {
+  flex: 1;
+  min-width: 300px; /* Ensures a reasonable size on smaller screens */
+  max-width: 30%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tooltip-info h2 {
+  font-size: 22px; /* Slightly larger for prominence */
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.tooltip-info p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #6a11cb;
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #ffdd57;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
