@@ -1,0 +1,125 @@
+/* General page styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  padding: 20px 15px;
+  background: linear-gradient(45deg, #2d74da, #4ecdc4);
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Top Section Layout */
+#top-section {
+  display: flex;
+  justify-content: space-between; /* Ensure research question is left-aligned, and filter is right-aligned */
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto; /* Center align the container */
+  padding: 0 15px; /* Add padding for spacing */
+}
+
+#research-question {
+  flex: 1;
+  max-width: 600px; /* Set a maximum width */
+}
+
+#research-question h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#research-question p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#filters {
+  flex: 1;
+  max-width: 300px; /* Restrict the width of the filter section */
+  text-align: right;
+}
+
+#filters label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#filters select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Visualization Section */
+#visualization {
+  display: flex;
+  justify-content: center; /* Ensure visualization is centered horizontally */
+  align-items: center; /* Ensure visualization is centered vertically */
+  padding: 40px 15px; /* Add spacing around the visualization */
+}
+
+#chart-container {
+  width: 100%;
+  max-width: 1200px; /* Set maximum width for visualization */
+  height: 800px; /* Maintain a large size for the visualization */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent; /* Transparent background */
+}
+
+#chart {
+  width: 100%;
+  height: 100%;
+}
+
+/* Tooltip styling */
+.tooltip {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.tooltip strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.tooltip span {
+  font-size: 14px;
+  line-height: 1.5;
+}
