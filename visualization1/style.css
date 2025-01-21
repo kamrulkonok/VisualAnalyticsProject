@@ -28,80 +28,79 @@ body {
   margin-top: 10px;
 }
 
-/* Top Section Layout */
-#top-section {
+/* Main container for cards */
+.main-container {
   display: flex;
-  justify-content: space-between; /* Ensure research question is left-aligned, and filter is right-aligned */
-  align-items: center;
-  max-width: 1200px;
-  margin: 20px auto; /* Center align the container */
-  padding: 0 15px; /* Add padding for spacing */
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 20px auto;
+  gap: 40px;
+  padding: 0 15px;
 }
 
-#research-question {
-  flex: 1;
-  max-width: 600px; /* Set a maximum width */
+/* Top section layout */
+.top-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Left card 1/3, right card 2/3 */
+  gap: 20px;
 }
 
-#research-question h2 {
+/* Left card styling for descriptions */
+.left-card, .bottom-left-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.left-card h2, .bottom-left-card h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-#research-question p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-#filters {
-  flex: 1;
-  max-width: 300px; /* Restrict the width of the filter section */
-  text-align: right;
-}
-
-#filters label {
-  margin-right: 10px;
-  font-weight: bold;
+.left-card p, .bottom-left-card p {
   font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
-#filters select {
-  padding: 8px 12px;
+/* Dropdown styling */
+#filter-container select, #respondent-filter {
+  padding: 10px 15px;
   border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 16px;
+  background-color: #fff;
+  margin: 5px;
   color: #333;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#filter-container label, #respondent-filter-container label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Dropdown hover and focus effects */
+#filter-container select:hover, #respondent-filter:hover {
   background-color: #f9f9f9;
 }
 
-/* Visualization Section */
-#visualization {
-  display: flex;
-  justify-content: center; /* Ensure visualization is centered horizontally */
-  align-items: center; /* Ensure visualization is centered vertically */
-  padding: 40px 15px; /* Add spacing around the visualization */
-}
-
-#chart-container {
-  width: 100%;
-  max-width: 1200px; /* Set maximum width for visualization */
-  height: 800px; /* Maintain a large size for the visualization */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent; /* Transparent background */
-}
-
-#chart {
-  width: 100%;
-  height: 100%;
+#filter-container select:focus, #respondent-filter:focus {
+  outline: none;
+  border-color: #2d74da;
 }
 
 /* Tooltip styling */
 .tooltip {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: white;
   position: absolute;
   background: rgba(0, 0, 0, 0.9);
   border-radius: 8px;
@@ -109,17 +108,110 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   pointer-events: none;
   visibility: hidden;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .tooltip strong {
   display: block;
   font-size: 16px;
   margin-bottom: 8px;
-  color: #fff;
 }
 
-.tooltip span {
-  font-size: 14px;
-  line-height: 1.5;
+/* Chart container styling for Circular Packing */
+#chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+#chart {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+#chart > svg {
+  display: block;
+  margin: auto;
+}
+
+/* Right card styling for Circular Packing */
+.right-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Chart container styling for Chord Diagram */
+#second-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+#second-chart {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#second-chart > svg {
+  display: block;
+  margin: auto;
+}
+
+/* Bottom section layout */
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Left card 1/3, right card 2/3 */
+  gap: 20px;
+}
+
+/* Bottom section right card */
+.bottom-right-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add hover effects to cards */
+.left-card:hover, .right-card:hover, .bottom-left-card:hover, .bottom-right-card:hover {
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .top-section, .bottom-section {
+    grid-template-columns: 1fr; /* Stack the cards vertically on smaller screens */
+  }
+
+  .left-card, .right-card, .bottom-left-card, .bottom-right-card {
+    max-width: 100%;
+  }
+
+  #filter-container {
+    position: static;
+    margin-bottom: 15px;
+  }
 }

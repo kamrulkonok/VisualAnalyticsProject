@@ -6,36 +6,67 @@
   <title>AI and the Future of STEAM Careers in the EU</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="circular_pack.js" defer></script> <!-- Script for Circular Packing Chart -->
+  <script src="chord.js" defer></script> <!-- Script for Chord Diagram -->
 </head>
 <body>
   <!-- Header Section -->
   <header class="header">
     <h1>AI and the Future of STEAM Careers in the EU</h1>
-    <p>Explore how AI is reshaping STEAM industries and the skills required to thrive in the European job market.</p>
+    <p>How can STEAM students in the EU adapt their skills to remain competitive in an AI-driven job market?</p>
   </header>
 
-  <!-- Top Section for Research Question and Filters -->
-  <div id="top-section">
-    <section id="research-question">
-      <h2>Research Question</h2>
-      <p>How can STEAM students in the EU adapt their skills to remain competitive in an AI-driven job market?</p>
-    </section>
+  <!-- Main Section -->
+  <main class="main-container">
+    <!-- Top Section -->
+    <div class="top-section">
+      <!-- Left Card for Storytelling -->
+      <div class="left-card">
+        <h2>Description</h2>
+        <p>Explore how AI is reshaping STEAM industries and the skills required to thrive in the European job market. This visualization provides insights into job satisfaction, average salaries, and AI sentiment across various countries and roles in STEAM fields.</p>
+        <p>Use the filters to explore specific insights or zoom into the charts for detailed views of industries, roles, and tools.</p>
+      </div>
 
-    <section id="filters">
-      <label for="country-filter">Filter by Country:</label>
-      <select id="country-filter">
-        <option value="all">All Countries</option>
-      </select>
-    </section>
-  </div>
+      <!-- Right Card for Circular Packing Visualization -->
+      <div class="right-card">
+        <!-- Filters for Circular Packing Chart -->
+        <div id="filter-container">
+          <label for="country-filter">Select a Country:</label>
+          <select id="country-filter">
+            <option value="all">All Countries</option>
+          </select>
+        </div>
 
-  <!-- Visualization Section -->
-  <section id="visualization">
-    <div id="chart-container">
-      <div id="chart"></div>
+        <!-- Chart Container for Circular Packing -->
+        <div id="chart-container" class="chart-centered">
+          <div id="chart"></div>
+        </div>
+      </div>
     </div>
-  </section>
 
-  <script src="script.js"></script>
+    <!-- Bottom Section for Second Visualization -->
+    <div class="bottom-section">
+      <!-- Left Card for Description -->
+      <div class="bottom-left-card">
+        <h2>AI Search and Developer Tools</h2>
+        <p>Most developers use ChatGPT of all the AI tools, and 74% want to keep using it next year. This visualization explores the preferences and connections between AI-powered search and developer tools.</p>
+        <p>Use the filter to select respondent categories such as "Professional Developers" or "Learning to Code" to customize the insights displayed in the chord diagram.</p>
+      </div>
+
+      <!-- Right Card for Chord Diagram -->
+      <div class="bottom-right-card">
+        <!-- Filter for Chord Diagram -->
+        <div id="respondent-filter-container">
+          <label for="respondent-filter">Filter by Respondent Type:</label>
+          <select id="respondent-filter">
+            <!-- Options populated dynamically by chord.js -->
+          </select>
+        </div>
+
+        <!-- Chart Container for Chord Diagram -->
+        <div id="second-chart" class="chart-centered"></div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>

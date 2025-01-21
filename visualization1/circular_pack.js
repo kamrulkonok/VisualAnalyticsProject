@@ -1,4 +1,4 @@
-const width = 928;
+const width = 680;
 const height = width;
 
 // Define hierarchical color scale
@@ -20,8 +20,9 @@ d3.json("data/circular_packing_chart.json").then(data => {
   const countries = data.countries || []; // Use the precomputed list of countries
 
   // Populate country dropdown dynamically
+  const uniqueCountries = new Set(countries); // Ensure uniqueness of countries
   dropdown.append("option").attr("value", "all").text("All Countries");
-  countries.forEach(country => {
+  uniqueCountries.forEach(country => {
     dropdown.append("option").attr("value", country).text(country);
   });
 
@@ -36,7 +37,7 @@ d3.json("data/circular_packing_chart.json").then(data => {
   function filterByCountry(data, country) {
     if (country === "all") return data;
 
-    const filtered = JSON.parse(JSON.stringify(data)); // Deep copy to avoid modifying the original data
+    const filtered = JSON.parse(JSON.stringify(data));
     filtered.children = filtered.children.map(industry => {
       industry.children = industry.children.map(jobRole => {
         jobRole.children = jobRole.children.map(toolCategory => {
@@ -117,18 +118,18 @@ d3.json("data/circular_packing_chart.json").then(data => {
       .data(root.descendants())
       .join("text")
       .attr("dy", "0.3em")
-      .style("font-size", d => Math.max(10, d.r / 5) + "px") // Dynamic font size based on circle radius
+      .style("font-size", d => Math.max(10, d.r / 5) + "px") 
       .style("font-weight", "bold")
       .style("fill", "#333")
       .style("text-shadow", "1px 1px 2px rgba(255, 255, 255, 0.8)")
       .attr("text-anchor", "middle")
       .style("fill-opacity", d => {
-        if (d.depth === 1) return 1; // Show industry name for outermost circle
-        return 0; // Hide all other labels initially
+        if (d.depth === 1) return 1; 
+        return 0; 
       })
       .text(d => {
-        if (d.depth === 1) return d.data.name; // Show industry name for outermost circle
-        if (d.depth === 3 || d.depth === 4) return d.data.name; // Show relevant names for tools and job roles
+        if (d.depth === 1) return d.data.name; 
+        if (d.depth === 3 || d.depth === 4) return d.data.name; 
         return d.depth === 2 ? d.data.name : "";
       });
 
@@ -155,14 +156,12 @@ d3.json("data/circular_packing_chart.json").then(data => {
           return t => zoomTo(i(t));
         });
 
-      // Show labels for the current level and its children
       label
         .filter(d => d === focus || d.parent === focus)
         .transition(transition)
         .style("fill-opacity", 1)
         .style("display", "inline");
 
-      // Hide labels for other levels
       label
         .filter(d => d !== focus && d.parent !== focus)
         .transition(transition)
