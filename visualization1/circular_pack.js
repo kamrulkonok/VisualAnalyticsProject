@@ -3,7 +3,7 @@ const height = width;
 
 // Define hierarchical color scale
 const color = d3.scaleLinear()
-  .domain([0, 5]) // Adjust the depth range as needed
+  .domain([0, 5]) 
   .range(["#e0eafc", "#112b3c"])
   .interpolate(d3.interpolateHcl);
 
@@ -57,8 +57,7 @@ d3.json("data/circular_packing_chart.json").then(data => {
   function updateVisualization(data) {
     chartContainer.selectAll("*").remove(); // Clear existing visualization
 
-    // Increase the padding between circles
-    const pack = d3.pack().size([width, height]).padding(10); // Adjust the padding value
+    const pack = d3.pack().size([width, height]).padding(10);
 
     const root = pack(
       d3.hierarchy(data)
@@ -84,13 +83,13 @@ d3.json("data/circular_packing_chart.json").then(data => {
         let tooltipText = "";
         if (d.depth === 1) {
           tooltipText = `<strong>${d.data.name}</strong><br>
-                         Avg. Job Satisfaction: ${d.data.tooltip['Average Job Satisfaction'] || "N/A"}<br>
-                         Avg. AI Sentiment: ${d.data.tooltip['Average AI Sentiment'] || "N/A"}`;
+                         Avg. Job Satisfaction: ${d.data.tooltip?.['Average Job Satisfaction'] || "N/A"}<br>
+                         Avg. AI Sentiment: ${d.data.tooltip?.['Average AI Sentiment'] || "N/A"}`;
         } else if (d.depth === 2) {
           tooltipText = `<strong>${d.parent.data.name} > ${d.data.name}</strong><br>
-                         Average Salary: €${d.data.tooltip['Average Salary (All Countries)'] || "N/A"}<br>
-                         Avg. Job Satisfaction: ${d.data.tooltip['Average Job Satisfaction'] || "N/A"}<br>
-                         Avg. AI Sentiment: ${d.data.tooltip['Average AI Sentiment'] || "N/A"}`;
+                         Average Salary: €${d.data.tooltip?.['Average Salary (All Countries)'] || "N/A"}<br>
+                         Avg. Job Satisfaction: ${d.data.tooltip?.['Average Job Satisfaction'] || "N/A"}<br>
+                         Avg. AI Sentiment: ${d.data.tooltip?.['Average AI Sentiment'] || "N/A"}`;
         } else if (d.depth === 3) {
           tooltipText = `<strong>${d.parent.data.name} > ${d.data.name}</strong>`;
         } else if (d.depth >= 4) {
@@ -118,20 +117,13 @@ d3.json("data/circular_packing_chart.json").then(data => {
       .data(root.descendants())
       .join("text")
       .attr("dy", "0.3em")
-      .style("font-size", d => Math.max(10, d.r / 5) + "px") 
+      .style("font-size", d => Math.max(10, d.r / 5) + "px")
       .style("font-weight", "bold")
       .style("fill", "#333")
-      .style("text-shadow", "1px 1px 2px rgba(255, 255, 255, 0.8)")
-      .attr("text-anchor", "middle")
-      .style("fill-opacity", d => {
-        if (d.depth === 1) return 1; 
-        return 0; 
-      })
-      .text(d => {
-        if (d.depth === 1) return d.data.name; 
-        if (d.depth === 3 || d.depth === 4) return d.data.name; 
-        return d.depth === 2 ? d.data.name : "";
-      });
+      .style("text-anchor", "middle")
+      .style("fill-opacity", d => d.parent === root ? 1 : 0)
+      .style("display", d => d.parent === root ? "inline" : "none")
+      .text(d => d.data.name);
 
     let focus = root;
     let view;
@@ -157,18 +149,11 @@ d3.json("data/circular_packing_chart.json").then(data => {
         });
 
       label
-        .filter(d => d === focus || d.parent === focus)
+        .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .transition(transition)
-        .style("fill-opacity", 1)
-        .style("display", "inline");
-
-      label
-        .filter(d => d !== focus && d.parent !== focus)
-        .transition(transition)
-        .style("fill-opacity", 0)
-        .on("end", function () {
-          d3.select(this).style("display", "none");
-        });
+        .style("fill-opacity", d => d.parent === focus ? 1 : 0)
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
 
     svg.on("click", () => zoom(null, root));
