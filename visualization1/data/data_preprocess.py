@@ -112,12 +112,10 @@ def split_columns_to_rows(df, columns):
     print(f"Split and exploded columns: {columns}")
     return df
 
-# Example usage
 file_path = "stack_overflow_survey_2024.csv"
 print("Starting data cleaning process...")
 cleaned_data = clean_stack_overflow_data(file_path)
 
-# Calculate additional metrics
 country_metrics, industry_metrics = calculate_additional_metrics(cleaned_data)
 
 # Splitting columns into separate rows for specified categories
@@ -134,7 +132,6 @@ final_cleaned_data = merge_metrics_with_data(final_cleaned_data, country_metrics
 required_columns = ["Average_Salary_By_Country", "Average_Salary", "Average_Job_Satisfaction", "Average_AI_Sentiment", "Count"]
 final_cleaned_data = final_cleaned_data.dropna(subset=required_columns).reset_index(drop=True)
 
-# Save the final cleaned data
 output_file = "circular_pack_dataset.csv"
 final_cleaned_data.to_csv(output_file, index=False)
 print(f"Data cleaning and transformation complete. Saved to {output_file}.")

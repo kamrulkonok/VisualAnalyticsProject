@@ -43,7 +43,7 @@ body {
 /* Top section layout */
 .top-section {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Left card 1/3, right card 2/3 */
+  grid-template-columns: 1fr 2fr; 
   gap: 30px;
 }
 
@@ -185,7 +185,7 @@ body {
 /* Bottom section layout */
 .bottom-section {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Left card 1/3, right card 2/3 */
+  grid-template-columns: 1fr 2fr; 
   gap: 30px;
 }
 
@@ -212,7 +212,7 @@ body {
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .top-section, .bottom-section {
-    grid-template-columns: 1fr; /* Stack the cards vertically on smaller screens */
+    grid-template-columns: 1fr;
   }
 
   .left-card, .right-card, .bottom-left-card, .bottom-right-card {

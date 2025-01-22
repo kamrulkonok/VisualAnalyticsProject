@@ -96,7 +96,7 @@
           tooltip.style("left", `${event.pageX + 10}px`).style("top", `${event.pageY + 10}px`);
         })
         .on("mouseout", function () {
-          svg.selectAll(".ribbons path").attr("opacity", 0.4); // Reset opacity
+          svg.selectAll(".ribbons path").attr("opacity", 0.4);
           tooltip.style("visibility", "hidden");
         });
 
@@ -129,7 +129,7 @@
           const label = names[d.index];
           return label.length > 15 ? `${label.substring(0, 12)}...` : label;
         })
-        .append("title") // Tooltip for full name
+        .append("title")
         .text(d => names[d.index]);
     }
 

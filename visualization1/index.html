@@ -6,8 +6,8 @@
   <title>Mapping the AI Revolution: Insights for STEAM Careers in the EU</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://d3js.org/d3.v6.min.js"></script>
-  <script src="circular_pack.js" defer></script> <!-- Script for Circular Packing Chart -->
-  <script src="chord.js" defer></script> <!-- Script for Chord Diagram -->
+  <script src="circular_pack.js" defer></script> 
+  <script src="chord.js" defer></script> 
 </head>
 <body>
   <!-- Header Section -->
@@ -25,7 +25,7 @@
 
     <!-- Top Section -->
     <div class="top-section">
-      <!-- Left Card for Storytelling -->
+      <!-- Left Card -->
       <div class="left-card">
         <h3>Key Trends and Insights by Professionals</h3>
         <ul>
@@ -55,24 +55,23 @@
 
     <!-- Bottom Section for Second Visualization -->
     <div class="bottom-section">
-      <!-- Left Card for Description -->
+      <!-- Left Card -->
       <div class="bottom-left-card">
         <h3>AI Search and Developer Tools</h3>
         <p>Most developers use ChatGPT of all the AI tools, and 74% want to keep using it next year. 41% of ChatGPT users want to use GitHub Copilot next year.</p>
         <p><i>Use the filter to select respondent categories to customize the insights displayed in the chord diagram.</i></p>
       </div>
 
-      <!-- Right Card for Chord Diagram -->
+      <!-- Right Card -->
       <div class="bottom-right-card">
         <!-- Filter for Chord Diagram -->
         <div id="respondent-filter-container">
           <label for="respondent-filter">Filter by Respondent Type:</label>
           <select id="respondent-filter">
-            <!-- Options populated dynamically by chord.js -->
           </select>
         </div>
 
-        <!-- Chart Container for Chord Diagram -->
+        <!-- Chart Container -->
         <div id="second-chart" class="chart-centered"></div>
       </div>
     </div>

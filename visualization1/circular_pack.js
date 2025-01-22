@@ -17,10 +17,10 @@ const chartContainer = d3.select("#chart");
 // Load the JSON file
 d3.json("data/circular_packing_chart.json").then(data => {
   const dropdown = d3.select("#country-filter");
-  const countries = data.countries || []; // Use the precomputed list of countries
+  const countries = data.countries || []; 
 
   // Populate country dropdown dynamically
-  const uniqueCountries = new Set(countries); // Ensure uniqueness of countries
+  const uniqueCountries = new Set(countries); 
   dropdown.append("option").attr("value", "all").text("All Countries");
   uniqueCountries.forEach(country => {
     dropdown.append("option").attr("value", country).text(country);
@@ -55,7 +55,7 @@ d3.json("data/circular_packing_chart.json").then(data => {
   }
 
   function updateVisualization(data) {
-    chartContainer.selectAll("*").remove(); // Clear existing visualization
+    chartContainer.selectAll("*").remove();
 
     const pack = d3.pack().size([width, height]).padding(10);
 

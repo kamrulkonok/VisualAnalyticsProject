@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-data_path = "survey_results_public.csv"  # Update with the actual path
+data_path = "survey_results_public.csv"  
 data = pd.read_csv(data_path)
 
 # Relevant columns
@@ -43,14 +43,11 @@ aggregated_data = (
     .reset_index(name="ConnectionCount")
 )
 
-# Add "All Respondents" category
 all_respondents = aggregated_data.groupby(["Source", "Target"]).sum(numeric_only=True).reset_index()
 all_respondents["RespondentType"] = "All Respondents"
 
-# Combine all data into a single file
 combined_data = pd.concat([aggregated_data, all_respondents], ignore_index=True)
 
-# Save the combined data to a CSV file
 combined_file_path = "chord_data.csv"
 combined_data.to_csv(combined_file_path, index=False)
 print(f"Combined data saved to {combined_file_path}")

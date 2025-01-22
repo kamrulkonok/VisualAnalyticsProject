@@ -16,12 +16,11 @@ def prepare_hierarchical_json_with_country(data, country_col="Country"):
     """
     # Extract unique countries for filtering
     unique_countries = sorted(data[country_col].dropna().unique().tolist())
-    unique_countries.insert(0, "All Countries")  # Add "All Countries" option
+    unique_countries.insert(0, "All Countries")
 
     industries = []
 
     for industry_name, industry_group in data.groupby("Industry"):
-        # Replace missing country values with "Unknown"
         industry_group[country_col] = industry_group[country_col].fillna("Unknown")
 
         # Level 1: Industry
@@ -81,19 +80,19 @@ def prepare_hierarchical_json_with_country(data, country_col="Country"):
                                     "Country": job_role_group[country_col].unique().tolist()
                                 }
                             })
-                        if tool_node["children"]:  # Remove empty tool categories
+                        if tool_node["children"]:  
                             job_role_node["children"].append(tool_node)
 
-            if job_role_node["children"]:  # Remove empty job roles
+            if job_role_node["children"]:  
                 industry_node["children"].append(job_role_node)
 
-        if industry_node["children"]:  # Remove empty industries
+        if industry_node["children"]:  
             industries.append(industry_node)
 
     hierarchical_json = {
         "name": "Industries",
         "children": industries,
-        "countries": unique_countries  # Add the unique countries for filtering
+        "countries": unique_countries  # Add unique countries for filtering
     }
 
     return hierarchical_json
@@ -103,10 +102,8 @@ def prepare_hierarchical_json_with_country(data, country_col="Country"):
 data_path = "circular_pack_dataset.csv"
 data = pd.read_csv(data_path)
 
-# Generate the revised JSON
 hierarchical_data_with_country = prepare_hierarchical_json_with_country(data)
 
-# Save the revised JSON to a file
 output_path = "circular_packing_chart.json"
 with open(output_path, "w") as json_file:
     json.dump(hierarchical_data_with_country, json_file, indent=4)
