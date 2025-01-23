@@ -1,0 +1,2501 @@
+Source,Target,RespondentType,ConnectionCount
+Amazon Q,Amazon Q,Learning to Code,27
+Amazon Q,Amazon Q,Other Coders,70
+Amazon Q,Amazon Q,Professional Developers,459
+Amazon Q,Andi,Learning to Code,8
+Amazon Q,Andi,Other Coders,7
+Amazon Q,Andi,Professional Developers,15
+Amazon Q,AskCodi,Learning to Code,10
+Amazon Q,AskCodi,Other Coders,10
+Amazon Q,AskCodi,Professional Developers,18
+Amazon Q,Bing AI,Learning to Code,19
+Amazon Q,Bing AI,Other Coders,31
+Amazon Q,Bing AI,Professional Developers,118
+Amazon Q,ChatGPT,Learning to Code,27
+Amazon Q,ChatGPT,Other Coders,96
+Amazon Q,ChatGPT,Professional Developers,624
+Amazon Q,Claude,Learning to Code,13
+Amazon Q,Claude,Other Coders,40
+Amazon Q,Claude,Professional Developers,183
+Amazon Q,Codeium,Learning to Code,15
+Amazon Q,Codeium,Other Coders,31
+Amazon Q,Codeium,Professional Developers,97
+Amazon Q,Cody,Learning to Code,9
+Amazon Q,Cody,Other Coders,16
+Amazon Q,Cody,Professional Developers,37
+Amazon Q,GitHub Copilot,Learning to Code,19
+Amazon Q,GitHub Copilot,Other Coders,65
+Amazon Q,GitHub Copilot,Professional Developers,468
+Amazon Q,Google Gemini,Learning to Code,20
+Amazon Q,Google Gemini,Other Coders,60
+Amazon Q,Google Gemini,Professional Developers,272
+Amazon Q,Lightning AI,Learning to Code,12
+Amazon Q,Lightning AI,Other Coders,12
+Amazon Q,Lightning AI,Professional Developers,26
+Amazon Q,Meta AI,Learning to Code,16
+Amazon Q,Meta AI,Other Coders,23
+Amazon Q,Meta AI,Professional Developers,82
+Amazon Q,Metaphor,Learning to Code,8
+Amazon Q,Metaphor,Other Coders,11
+Amazon Q,Metaphor,Professional Developers,18
+Amazon Q,Neeva AI,Learning to Code,11
+Amazon Q,Neeva AI,Other Coders,11
+Amazon Q,Neeva AI,Professional Developers,18
+Amazon Q,OpenAI Codex,Learning to Code,13
+Amazon Q,OpenAI Codex,Other Coders,20
+Amazon Q,OpenAI Codex,Professional Developers,49
+Amazon Q,Perplexity AI,Learning to Code,15
+Amazon Q,Perplexity AI,Other Coders,28
+Amazon Q,Perplexity AI,Professional Developers,108
+Amazon Q,Phind,Learning to Code,13
+Amazon Q,Phind,Other Coders,21
+Amazon Q,Phind,Professional Developers,45
+Amazon Q,Quora Poe,Learning to Code,13
+Amazon Q,Quora Poe,Other Coders,10
+Amazon Q,Quora Poe,Professional Developers,24
+Amazon Q,Replit Ghostwriter,Learning to Code,9
+Amazon Q,Replit Ghostwriter,Other Coders,11
+Amazon Q,Replit Ghostwriter,Professional Developers,19
+Amazon Q,Snyk Code,Learning to Code,12
+Amazon Q,Snyk Code,Other Coders,18
+Amazon Q,Snyk Code,Professional Developers,37
+Amazon Q,Tabnine,Learning to Code,14
+Amazon Q,Tabnine,Other Coders,15
+Amazon Q,Tabnine,Professional Developers,46
+Amazon Q,Visual Studio Intellicode,Learning to Code,15
+Amazon Q,Visual Studio Intellicode,Other Coders,37
+Amazon Q,Visual Studio Intellicode,Professional Developers,133
+Amazon Q,Whispr AI,Learning to Code,15
+Amazon Q,Whispr AI,Other Coders,16
+Amazon Q,Whispr AI,Professional Developers,45
+Amazon Q,WolframAlpha,Learning to Code,10
+Amazon Q,WolframAlpha,Other Coders,28
+Amazon Q,WolframAlpha,Professional Developers,57
+Amazon Q,You.com,Learning to Code,11
+Amazon Q,You.com,Other Coders,16
+Amazon Q,You.com,Professional Developers,26
+Andi,Amazon Q,Learning to Code,5
+Andi,Amazon Q,Other Coders,9
+Andi,Amazon Q,Professional Developers,18
+Andi,Andi,Learning to Code,14
+Andi,Andi,Other Coders,21
+Andi,Andi,Professional Developers,25
+Andi,AskCodi,Learning to Code,8
+Andi,AskCodi,Other Coders,10
+Andi,AskCodi,Professional Developers,17
+Andi,Bing AI,Learning to Code,10
+Andi,Bing AI,Other Coders,15
+Andi,Bing AI,Professional Developers,18
+Andi,ChatGPT,Learning to Code,12
+Andi,ChatGPT,Other Coders,17
+Andi,ChatGPT,Professional Developers,30
+Andi,Claude,Learning to Code,6
+Andi,Claude,Other Coders,9
+Andi,Claude,Professional Developers,25
+Andi,Codeium,Learning to Code,7
+Andi,Codeium,Other Coders,9
+Andi,Codeium,Professional Developers,19
+Andi,Cody,Learning to Code,7
+Andi,Cody,Other Coders,9
+Andi,Cody,Professional Developers,18
+Andi,GitHub Copilot,Learning to Code,9
+Andi,GitHub Copilot,Other Coders,17
+Andi,GitHub Copilot,Professional Developers,22
+Andi,Google Gemini,Learning to Code,8
+Andi,Google Gemini,Other Coders,13
+Andi,Google Gemini,Professional Developers,25
+Andi,Lightning AI,Learning to Code,7
+Andi,Lightning AI,Other Coders,9
+Andi,Lightning AI,Professional Developers,15
+Andi,Meta AI,Learning to Code,9
+Andi,Meta AI,Other Coders,11
+Andi,Meta AI,Professional Developers,17
+Andi,Metaphor,Learning to Code,5
+Andi,Metaphor,Other Coders,9
+Andi,Metaphor,Professional Developers,14
+Andi,Neeva AI,Learning to Code,8
+Andi,Neeva AI,Other Coders,9
+Andi,Neeva AI,Professional Developers,17
+Andi,OpenAI Codex,Learning to Code,10
+Andi,OpenAI Codex,Other Coders,10
+Andi,OpenAI Codex,Professional Developers,20
+Andi,Perplexity AI,Learning to Code,10
+Andi,Perplexity AI,Other Coders,11
+Andi,Perplexity AI,Professional Developers,19
+Andi,Phind,Learning to Code,10
+Andi,Phind,Other Coders,9
+Andi,Phind,Professional Developers,15
+Andi,Quora Poe,Learning to Code,9
+Andi,Quora Poe,Other Coders,6
+Andi,Quora Poe,Professional Developers,16
+Andi,Replit Ghostwriter,Learning to Code,7
+Andi,Replit Ghostwriter,Other Coders,8
+Andi,Replit Ghostwriter,Professional Developers,16
+Andi,Snyk Code,Learning to Code,9
+Andi,Snyk Code,Other Coders,7
+Andi,Snyk Code,Professional Developers,16
+Andi,Tabnine,Learning to Code,8
+Andi,Tabnine,Other Coders,7
+Andi,Tabnine,Professional Developers,13
+Andi,Visual Studio Intellicode,Learning to Code,10
+Andi,Visual Studio Intellicode,Other Coders,10
+Andi,Visual Studio Intellicode,Professional Developers,14
+Andi,Whispr AI,Learning to Code,9
+Andi,Whispr AI,Other Coders,6
+Andi,Whispr AI,Professional Developers,15
+Andi,WolframAlpha,Learning to Code,7
+Andi,WolframAlpha,Other Coders,10
+Andi,WolframAlpha,Professional Developers,15
+Andi,You.com,Learning to Code,7
+Andi,You.com,Other Coders,9
+Andi,You.com,Professional Developers,15
+AskCodi,Amazon Q,Learning to Code,6
+AskCodi,Amazon Q,Other Coders,10
+AskCodi,Amazon Q,Professional Developers,17
+AskCodi,Andi,Learning to Code,7
+AskCodi,Andi,Other Coders,8
+AskCodi,Andi,Professional Developers,13
+AskCodi,AskCodi,Learning to Code,13
+AskCodi,AskCodi,Other Coders,16
+AskCodi,AskCodi,Professional Developers,30
+AskCodi,Bing AI,Learning to Code,11
+AskCodi,Bing AI,Other Coders,17
+AskCodi,Bing AI,Professional Developers,21
+AskCodi,ChatGPT,Learning to Code,11
+AskCodi,ChatGPT,Other Coders,23
+AskCodi,ChatGPT,Professional Developers,52
+AskCodi,Claude,Learning to Code,11
+AskCodi,Claude,Other Coders,10
+AskCodi,Claude,Professional Developers,28
+AskCodi,Codeium,Learning to Code,11
+AskCodi,Codeium,Other Coders,14
+AskCodi,Codeium,Professional Developers,27
+AskCodi,Cody,Learning to Code,9
+AskCodi,Cody,Other Coders,12
+AskCodi,Cody,Professional Developers,26
+AskCodi,GitHub Copilot,Learning to Code,11
+AskCodi,GitHub Copilot,Other Coders,18
+AskCodi,GitHub Copilot,Professional Developers,33
+AskCodi,Google Gemini,Learning to Code,7
+AskCodi,Google Gemini,Other Coders,17
+AskCodi,Google Gemini,Professional Developers,29
+AskCodi,Lightning AI,Learning to Code,8
+AskCodi,Lightning AI,Other Coders,9
+AskCodi,Lightning AI,Professional Developers,12
+AskCodi,Meta AI,Learning to Code,9
+AskCodi,Meta AI,Other Coders,11
+AskCodi,Meta AI,Professional Developers,18
+AskCodi,Metaphor,Learning to Code,7
+AskCodi,Metaphor,Other Coders,9
+AskCodi,Metaphor,Professional Developers,13
+AskCodi,Neeva AI,Learning to Code,9
+AskCodi,Neeva AI,Other Coders,11
+AskCodi,Neeva AI,Professional Developers,14
+AskCodi,OpenAI Codex,Learning to Code,11
+AskCodi,OpenAI Codex,Other Coders,11
+AskCodi,OpenAI Codex,Professional Developers,19
+AskCodi,Perplexity AI,Learning to Code,11
+AskCodi,Perplexity AI,Other Coders,13
+AskCodi,Perplexity AI,Professional Developers,20
+AskCodi,Phind,Learning to Code,12
+AskCodi,Phind,Other Coders,11
+AskCodi,Phind,Professional Developers,13
+AskCodi,Quora Poe,Learning to Code,9
+AskCodi,Quora Poe,Other Coders,9
+AskCodi,Quora Poe,Professional Developers,14
+AskCodi,Replit Ghostwriter,Learning to Code,9
+AskCodi,Replit Ghostwriter,Other Coders,9
+AskCodi,Replit Ghostwriter,Professional Developers,14
+AskCodi,Snyk Code,Learning to Code,10
+AskCodi,Snyk Code,Other Coders,10
+AskCodi,Snyk Code,Professional Developers,16
+AskCodi,Tabnine,Learning to Code,10
+AskCodi,Tabnine,Other Coders,12
+AskCodi,Tabnine,Professional Developers,16
+AskCodi,Visual Studio Intellicode,Learning to Code,12
+AskCodi,Visual Studio Intellicode,Other Coders,16
+AskCodi,Visual Studio Intellicode,Professional Developers,23
+AskCodi,Whispr AI,Learning to Code,12
+AskCodi,Whispr AI,Other Coders,8
+AskCodi,Whispr AI,Professional Developers,16
+AskCodi,WolframAlpha,Learning to Code,8
+AskCodi,WolframAlpha,Other Coders,10
+AskCodi,WolframAlpha,Professional Developers,17
+AskCodi,You.com,Learning to Code,7
+AskCodi,You.com,Other Coders,12
+AskCodi,You.com,Professional Developers,15
+Bing AI,Amazon Q,Learning to Code,33
+Bing AI,Amazon Q,Other Coders,45
+Bing AI,Amazon Q,Professional Developers,182
+Bing AI,Andi,Learning to Code,15
+Bing AI,Andi,Other Coders,12
+Bing AI,Andi,Professional Developers,25
+Bing AI,AskCodi,Learning to Code,19
+Bing AI,AskCodi,Other Coders,17
+Bing AI,AskCodi,Professional Developers,43
+Bing AI,Bing AI,Learning to Code,374
+Bing AI,Bing AI,Other Coders,820
+Bing AI,Bing AI,Professional Developers,2614
+Bing AI,ChatGPT,Learning to Code,499
+Bing AI,ChatGPT,Other Coders,1039
+Bing AI,ChatGPT,Professional Developers,3457
+Bing AI,Claude,Learning to Code,105
+Bing AI,Claude,Other Coders,222
+Bing AI,Claude,Professional Developers,636
+Bing AI,Codeium,Learning to Code,78
+Bing AI,Codeium,Other Coders,129
+Bing AI,Codeium,Professional Developers,363
+Bing AI,Cody,Learning to Code,19
+Bing AI,Cody,Other Coders,33
+Bing AI,Cody,Professional Developers,95
+Bing AI,GitHub Copilot,Learning to Code,288
+Bing AI,GitHub Copilot,Other Coders,595
+Bing AI,GitHub Copilot,Professional Developers,2481
+Bing AI,Google Gemini,Learning to Code,300
+Bing AI,Google Gemini,Other Coders,521
+Bing AI,Google Gemini,Professional Developers,1548
+Bing AI,Lightning AI,Learning to Code,28
+Bing AI,Lightning AI,Other Coders,28
+Bing AI,Lightning AI,Professional Developers,60
+Bing AI,Meta AI,Learning to Code,103
+Bing AI,Meta AI,Other Coders,131
+Bing AI,Meta AI,Professional Developers,400
+Bing AI,Metaphor,Learning to Code,18
+Bing AI,Metaphor,Other Coders,11
+Bing AI,Metaphor,Professional Developers,37
+Bing AI,Neeva AI,Learning to Code,18
+Bing AI,Neeva AI,Other Coders,14
+Bing AI,Neeva AI,Professional Developers,28
+Bing AI,OpenAI Codex,Learning to Code,53
+Bing AI,OpenAI Codex,Other Coders,70
+Bing AI,OpenAI Codex,Professional Developers,160
+Bing AI,Perplexity AI,Learning to Code,78
+Bing AI,Perplexity AI,Other Coders,146
+Bing AI,Perplexity AI,Professional Developers,379
+Bing AI,Phind,Learning to Code,37
+Bing AI,Phind,Other Coders,62
+Bing AI,Phind,Professional Developers,192
+Bing AI,Quora Poe,Learning to Code,28
+Bing AI,Quora Poe,Other Coders,32
+Bing AI,Quora Poe,Professional Developers,65
+Bing AI,Replit Ghostwriter,Learning to Code,21
+Bing AI,Replit Ghostwriter,Other Coders,24
+Bing AI,Replit Ghostwriter,Professional Developers,42
+Bing AI,Snyk Code,Learning to Code,17
+Bing AI,Snyk Code,Other Coders,20
+Bing AI,Snyk Code,Professional Developers,69
+Bing AI,Tabnine,Learning to Code,53
+Bing AI,Tabnine,Other Coders,61
+Bing AI,Tabnine,Professional Developers,192
+Bing AI,Visual Studio Intellicode,Learning to Code,128
+Bing AI,Visual Studio Intellicode,Other Coders,296
+Bing AI,Visual Studio Intellicode,Professional Developers,1041
+Bing AI,Whispr AI,Learning to Code,32
+Bing AI,Whispr AI,Other Coders,40
+Bing AI,Whispr AI,Professional Developers,108
+Bing AI,WolframAlpha,Learning to Code,58
+Bing AI,WolframAlpha,Other Coders,159
+Bing AI,WolframAlpha,Professional Developers,311
+Bing AI,You.com,Learning to Code,32
+Bing AI,You.com,Other Coders,35
+Bing AI,You.com,Professional Developers,77
+ChatGPT,Amazon Q,Learning to Code,62
+ChatGPT,Amazon Q,Other Coders,123
+ChatGPT,Amazon Q,Professional Developers,716
+ChatGPT,Andi,Learning to Code,21
+ChatGPT,Andi,Other Coders,17
+ChatGPT,Andi,Professional Developers,48
+ChatGPT,AskCodi,Learning to Code,29
+ChatGPT,AskCodi,Other Coders,27
+ChatGPT,AskCodi,Professional Developers,79
+ChatGPT,Bing AI,Learning to Code,371
+ChatGPT,Bing AI,Other Coders,759
+ChatGPT,Bing AI,Professional Developers,2421
+ChatGPT,ChatGPT,Learning to Code,1714
+ChatGPT,ChatGPT,Other Coders,4537
+ChatGPT,ChatGPT,Professional Developers,21949
+ChatGPT,Claude,Learning to Code,235
+ChatGPT,Claude,Other Coders,653
+ChatGPT,Claude,Professional Developers,2649
+ChatGPT,Codeium,Learning to Code,185
+ChatGPT,Codeium,Other Coders,364
+ChatGPT,Codeium,Professional Developers,1454
+ChatGPT,Cody,Learning to Code,35
+ChatGPT,Cody,Other Coders,69
+ChatGPT,Cody,Professional Developers,305
+ChatGPT,GitHub Copilot,Learning to Code,830
+ChatGPT,GitHub Copilot,Other Coders,2115
+ChatGPT,GitHub Copilot,Professional Developers,12673
+ChatGPT,Google Gemini,Learning to Code,702
+ChatGPT,Google Gemini,Other Coders,1493
+ChatGPT,Google Gemini,Professional Developers,6385
+ChatGPT,Lightning AI,Learning to Code,44
+ChatGPT,Lightning AI,Other Coders,46
+ChatGPT,Lightning AI,Professional Developers,137
+ChatGPT,Meta AI,Learning to Code,164
+ChatGPT,Meta AI,Other Coders,285
+ChatGPT,Meta AI,Professional Developers,1178
+ChatGPT,Metaphor,Learning to Code,25
+ChatGPT,Metaphor,Other Coders,16
+ChatGPT,Metaphor,Professional Developers,57
+ChatGPT,Neeva AI,Learning to Code,24
+ChatGPT,Neeva AI,Other Coders,21
+ChatGPT,Neeva AI,Professional Developers,48
+ChatGPT,OpenAI Codex,Learning to Code,89
+ChatGPT,OpenAI Codex,Other Coders,145
+ChatGPT,OpenAI Codex,Professional Developers,475
+ChatGPT,Perplexity AI,Learning to Code,147
+ChatGPT,Perplexity AI,Other Coders,376
+ChatGPT,Perplexity AI,Professional Developers,1385
+ChatGPT,Phind,Learning to Code,79
+ChatGPT,Phind,Other Coders,179
+ChatGPT,Phind,Professional Developers,723
+ChatGPT,Quora Poe,Learning to Code,46
+ChatGPT,Quora Poe,Other Coders,69
+ChatGPT,Quora Poe,Professional Developers,145
+ChatGPT,Replit Ghostwriter,Learning to Code,32
+ChatGPT,Replit Ghostwriter,Other Coders,37
+ChatGPT,Replit Ghostwriter,Professional Developers,87
+ChatGPT,Snyk Code,Learning to Code,32
+ChatGPT,Snyk Code,Other Coders,54
+ChatGPT,Snyk Code,Professional Developers,245
+ChatGPT,Tabnine,Learning to Code,108
+ChatGPT,Tabnine,Other Coders,145
+ChatGPT,Tabnine,Professional Developers,691
+ChatGPT,Visual Studio Intellicode,Learning to Code,303
+ChatGPT,Visual Studio Intellicode,Other Coders,719
+ChatGPT,Visual Studio Intellicode,Professional Developers,3201
+ChatGPT,Whispr AI,Learning to Code,44
+ChatGPT,Whispr AI,Other Coders,94
+ChatGPT,Whispr AI,Professional Developers,341
+ChatGPT,WolframAlpha,Learning to Code,131
+ChatGPT,WolframAlpha,Other Coders,524
+ChatGPT,WolframAlpha,Professional Developers,1135
+ChatGPT,You.com,Learning to Code,49
+ChatGPT,You.com,Other Coders,67
+ChatGPT,You.com,Professional Developers,205
+Claude,Amazon Q,Learning to Code,10
+Claude,Amazon Q,Other Coders,31
+Claude,Amazon Q,Professional Developers,148
+Claude,Andi,Learning to Code,7
+Claude,Andi,Other Coders,9
+Claude,Andi,Professional Developers,20
+Claude,AskCodi,Learning to Code,12
+Claude,AskCodi,Other Coders,15
+Claude,AskCodi,Professional Developers,26
+Claude,Bing AI,Learning to Code,72
+Claude,Bing AI,Other Coders,119
+Claude,Bing AI,Professional Developers,291
+Claude,ChatGPT,Learning to Code,210
+Claude,ChatGPT,Other Coders,492
+Claude,ChatGPT,Professional Developers,2030
+Claude,Claude,Learning to Code,171
+Claude,Claude,Other Coders,442
+Claude,Claude,Professional Developers,1747
+Claude,Codeium,Learning to Code,45
+Claude,Codeium,Other Coders,88
+Claude,Codeium,Professional Developers,266
+Claude,Cody,Learning to Code,11
+Claude,Cody,Other Coders,25
+Claude,Cody,Professional Developers,90
+Claude,GitHub Copilot,Learning to Code,115
+Claude,GitHub Copilot,Other Coders,272
+Claude,GitHub Copilot,Professional Developers,1318
+Claude,Google Gemini,Learning to Code,108
+Claude,Google Gemini,Other Coders,252
+Claude,Google Gemini,Professional Developers,804
+Claude,Lightning AI,Learning to Code,13
+Claude,Lightning AI,Other Coders,22
+Claude,Lightning AI,Professional Developers,33
+Claude,Meta AI,Learning to Code,32
+Claude,Meta AI,Other Coders,73
+Claude,Meta AI,Professional Developers,279
+Claude,Metaphor,Learning to Code,7
+Claude,Metaphor,Other Coders,11
+Claude,Metaphor,Professional Developers,21
+Claude,Neeva AI,Learning to Code,8
+Claude,Neeva AI,Other Coders,14
+Claude,Neeva AI,Professional Developers,17
+Claude,OpenAI Codex,Learning to Code,21
+Claude,OpenAI Codex,Other Coders,32
+Claude,OpenAI Codex,Professional Developers,89
+Claude,Perplexity AI,Learning to Code,50
+Claude,Perplexity AI,Other Coders,119
+Claude,Perplexity AI,Professional Developers,427
+Claude,Phind,Learning to Code,21
+Claude,Phind,Other Coders,42
+Claude,Phind,Professional Developers,147
+Claude,Quora Poe,Learning to Code,16
+Claude,Quora Poe,Other Coders,36
+Claude,Quora Poe,Professional Developers,58
+Claude,Replit Ghostwriter,Learning to Code,11
+Claude,Replit Ghostwriter,Other Coders,17
+Claude,Replit Ghostwriter,Professional Developers,28
+Claude,Snyk Code,Learning to Code,8
+Claude,Snyk Code,Other Coders,15
+Claude,Snyk Code,Professional Developers,48
+Claude,Tabnine,Learning to Code,23
+Claude,Tabnine,Other Coders,36
+Claude,Tabnine,Professional Developers,111
+Claude,Visual Studio Intellicode,Learning to Code,51
+Claude,Visual Studio Intellicode,Other Coders,112
+Claude,Visual Studio Intellicode,Professional Developers,325
+Claude,Whispr AI,Learning to Code,19
+Claude,Whispr AI,Other Coders,30
+Claude,Whispr AI,Professional Developers,84
+Claude,WolframAlpha,Learning to Code,34
+Claude,WolframAlpha,Other Coders,92
+Claude,WolframAlpha,Professional Developers,194
+Claude,You.com,Learning to Code,13
+Claude,You.com,Other Coders,25
+Claude,You.com,Professional Developers,58
+Codeium,Amazon Q,Learning to Code,14
+Codeium,Amazon Q,Other Coders,18
+Codeium,Amazon Q,Professional Developers,89
+Codeium,Andi,Learning to Code,5
+Codeium,Andi,Other Coders,8
+Codeium,Andi,Professional Developers,18
+Codeium,AskCodi,Learning to Code,11
+Codeium,AskCodi,Other Coders,12
+Codeium,AskCodi,Professional Developers,30
+Codeium,Bing AI,Learning to Code,43
+Codeium,Bing AI,Other Coders,86
+Codeium,Bing AI,Professional Developers,219
+Codeium,ChatGPT,Learning to Code,146
+Codeium,ChatGPT,Other Coders,304
+Codeium,ChatGPT,Professional Developers,1297
+Codeium,Claude,Learning to Code,36
+Codeium,Claude,Other Coders,89
+Codeium,Claude,Professional Developers,307
+Codeium,Codeium,Learning to Code,150
+Codeium,Codeium,Other Coders,356
+Codeium,Codeium,Professional Developers,1386
+Codeium,Cody,Learning to Code,10
+Codeium,Cody,Other Coders,22
+Codeium,Cody,Professional Developers,71
+Codeium,GitHub Copilot,Learning to Code,68
+Codeium,GitHub Copilot,Other Coders,158
+Codeium,GitHub Copilot,Professional Developers,744
+Codeium,Google Gemini,Learning to Code,76
+Codeium,Google Gemini,Other Coders,149
+Codeium,Google Gemini,Professional Developers,538
+Codeium,Lightning AI,Learning to Code,10
+Codeium,Lightning AI,Other Coders,14
+Codeium,Lightning AI,Professional Developers,26
+Codeium,Meta AI,Learning to Code,24
+Codeium,Meta AI,Other Coders,42
+Codeium,Meta AI,Professional Developers,116
+Codeium,Metaphor,Learning to Code,6
+Codeium,Metaphor,Other Coders,10
+Codeium,Metaphor,Professional Developers,21
+Codeium,Neeva AI,Learning to Code,8
+Codeium,Neeva AI,Other Coders,12
+Codeium,Neeva AI,Professional Developers,19
+Codeium,OpenAI Codex,Learning to Code,14
+Codeium,OpenAI Codex,Other Coders,20
+Codeium,OpenAI Codex,Professional Developers,61
+Codeium,Perplexity AI,Learning to Code,31
+Codeium,Perplexity AI,Other Coders,68
+Codeium,Perplexity AI,Professional Developers,195
+Codeium,Phind,Learning to Code,23
+Codeium,Phind,Other Coders,51
+Codeium,Phind,Professional Developers,142
+Codeium,Quora Poe,Learning to Code,13
+Codeium,Quora Poe,Other Coders,17
+Codeium,Quora Poe,Professional Developers,45
+Codeium,Replit Ghostwriter,Learning to Code,7
+Codeium,Replit Ghostwriter,Other Coders,10
+Codeium,Replit Ghostwriter,Professional Developers,28
+Codeium,Snyk Code,Learning to Code,12
+Codeium,Snyk Code,Other Coders,12
+Codeium,Snyk Code,Professional Developers,42
+Codeium,Tabnine,Learning to Code,24
+Codeium,Tabnine,Other Coders,39
+Codeium,Tabnine,Professional Developers,106
+Codeium,Visual Studio Intellicode,Learning to Code,45
+Codeium,Visual Studio Intellicode,Other Coders,92
+Codeium,Visual Studio Intellicode,Professional Developers,257
+Codeium,Whispr AI,Learning to Code,14
+Codeium,Whispr AI,Other Coders,17
+Codeium,Whispr AI,Professional Developers,53
+Codeium,WolframAlpha,Learning to Code,18
+Codeium,WolframAlpha,Other Coders,46
+Codeium,WolframAlpha,Professional Developers,88
+Codeium,You.com,Learning to Code,9
+Codeium,You.com,Other Coders,22
+Codeium,You.com,Professional Developers,56
+Cody,Amazon Q,Learning to Code,6
+Cody,Amazon Q,Other Coders,18
+Cody,Amazon Q,Professional Developers,28
+Cody,Andi,Learning to Code,5
+Cody,Andi,Other Coders,10
+Cody,Andi,Professional Developers,18
+Cody,AskCodi,Learning to Code,7
+Cody,AskCodi,Other Coders,15
+Cody,AskCodi,Professional Developers,25
+Cody,Bing AI,Learning to Code,8
+Cody,Bing AI,Other Coders,27
+Cody,Bing AI,Professional Developers,68
+Cody,ChatGPT,Learning to Code,20
+Cody,ChatGPT,Other Coders,62
+Cody,ChatGPT,Professional Developers,292
+Cody,Claude,Learning to Code,11
+Cody,Claude,Other Coders,28
+Cody,Claude,Professional Developers,116
+Cody,Codeium,Learning to Code,11
+Cody,Codeium,Other Coders,25
+Cody,Codeium,Professional Developers,86
+Cody,Cody,Learning to Code,20
+Cody,Cody,Other Coders,53
+Cody,Cody,Professional Developers,230
+Cody,GitHub Copilot,Learning to Code,13
+Cody,GitHub Copilot,Other Coders,35
+Cody,GitHub Copilot,Professional Developers,186
+Cody,Google Gemini,Learning to Code,17
+Cody,Google Gemini,Other Coders,42
+Cody,Google Gemini,Professional Developers,129
+Cody,Lightning AI,Learning to Code,6
+Cody,Lightning AI,Other Coders,13
+Cody,Lightning AI,Professional Developers,18
+Cody,Meta AI,Learning to Code,9
+Cody,Meta AI,Other Coders,19
+Cody,Meta AI,Professional Developers,48
+Cody,Metaphor,Learning to Code,5
+Cody,Metaphor,Other Coders,13
+Cody,Metaphor,Professional Developers,17
+Cody,Neeva AI,Learning to Code,5
+Cody,Neeva AI,Other Coders,15
+Cody,Neeva AI,Professional Developers,17
+Cody,OpenAI Codex,Learning to Code,7
+Cody,OpenAI Codex,Other Coders,15
+Cody,OpenAI Codex,Professional Developers,34
+Cody,Perplexity AI,Learning to Code,10
+Cody,Perplexity AI,Other Coders,24
+Cody,Perplexity AI,Professional Developers,68
+Cody,Phind,Learning to Code,10
+Cody,Phind,Other Coders,18
+Cody,Phind,Professional Developers,49
+Cody,Quora Poe,Learning to Code,6
+Cody,Quora Poe,Other Coders,11
+Cody,Quora Poe,Professional Developers,22
+Cody,Replit Ghostwriter,Learning to Code,4
+Cody,Replit Ghostwriter,Other Coders,12
+Cody,Replit Ghostwriter,Professional Developers,18
+Cody,Snyk Code,Learning to Code,6
+Cody,Snyk Code,Other Coders,12
+Cody,Snyk Code,Professional Developers,24
+Cody,Tabnine,Learning to Code,12
+Cody,Tabnine,Other Coders,17
+Cody,Tabnine,Professional Developers,33
+Cody,Visual Studio Intellicode,Learning to Code,13
+Cody,Visual Studio Intellicode,Other Coders,26
+Cody,Visual Studio Intellicode,Professional Developers,77
+Cody,Whispr AI,Learning to Code,7
+Cody,Whispr AI,Other Coders,12
+Cody,Whispr AI,Professional Developers,22
+Cody,WolframAlpha,Learning to Code,7
+Cody,WolframAlpha,Other Coders,17
+Cody,WolframAlpha,Professional Developers,39
+Cody,You.com,Learning to Code,9
+Cody,You.com,Other Coders,15
+Cody,You.com,Professional Developers,28
+GitHub Copilot,Amazon Q,Learning to Code,30
+GitHub Copilot,Amazon Q,Other Coders,62
+GitHub Copilot,Amazon Q,Professional Developers,417
+GitHub Copilot,Andi,Learning to Code,10
+GitHub Copilot,Andi,Other Coders,16
+GitHub Copilot,Andi,Professional Developers,30
+GitHub Copilot,AskCodi,Learning to Code,17
+GitHub Copilot,AskCodi,Other Coders,19
+GitHub Copilot,AskCodi,Professional Developers,44
+GitHub Copilot,Bing AI,Learning to Code,139
+GitHub Copilot,Bing AI,Other Coders,284
+GitHub Copilot,Bing AI,Professional Developers,1321
+GitHub Copilot,ChatGPT,Learning to Code,565
+GitHub Copilot,ChatGPT,Other Coders,1478
+GitHub Copilot,ChatGPT,Professional Developers,10061
+GitHub Copilot,Claude,Learning to Code,93
+GitHub Copilot,Claude,Other Coders,286
+GitHub Copilot,Claude,Professional Developers,1541
+GitHub Copilot,Codeium,Learning to Code,61
+GitHub Copilot,Codeium,Other Coders,142
+GitHub Copilot,Codeium,Professional Developers,739
+GitHub Copilot,Cody,Learning to Code,17
+GitHub Copilot,Cody,Other Coders,31
+GitHub Copilot,Cody,Professional Developers,173
+GitHub Copilot,GitHub Copilot,Learning to Code,563
+GitHub Copilot,GitHub Copilot,Other Coders,1631
+GitHub Copilot,GitHub Copilot,Professional Developers,11528
+GitHub Copilot,Google Gemini,Learning to Code,286
+GitHub Copilot,Google Gemini,Other Coders,607
+GitHub Copilot,Google Gemini,Professional Developers,3265
+GitHub Copilot,Lightning AI,Learning to Code,25
+GitHub Copilot,Lightning AI,Other Coders,31
+GitHub Copilot,Lightning AI,Professional Developers,86
+GitHub Copilot,Meta AI,Learning to Code,69
+GitHub Copilot,Meta AI,Other Coders,116
+GitHub Copilot,Meta AI,Professional Developers,642
+GitHub Copilot,Metaphor,Learning to Code,14
+GitHub Copilot,Metaphor,Other Coders,14
+GitHub Copilot,Metaphor,Professional Developers,36
+GitHub Copilot,Neeva AI,Learning to Code,13
+GitHub Copilot,Neeva AI,Other Coders,17
+GitHub Copilot,Neeva AI,Professional Developers,36
+GitHub Copilot,OpenAI Codex,Learning to Code,38
+GitHub Copilot,OpenAI Codex,Other Coders,82
+GitHub Copilot,OpenAI Codex,Professional Developers,291
+GitHub Copilot,Perplexity AI,Learning to Code,62
+GitHub Copilot,Perplexity AI,Other Coders,183
+GitHub Copilot,Perplexity AI,Professional Developers,790
+GitHub Copilot,Phind,Learning to Code,36
+GitHub Copilot,Phind,Other Coders,73
+GitHub Copilot,Phind,Professional Developers,420
+GitHub Copilot,Quora Poe,Learning to Code,22
+GitHub Copilot,Quora Poe,Other Coders,33
+GitHub Copilot,Quora Poe,Professional Developers,81
+GitHub Copilot,Replit Ghostwriter,Learning to Code,15
+GitHub Copilot,Replit Ghostwriter,Other Coders,17
+GitHub Copilot,Replit Ghostwriter,Professional Developers,64
+GitHub Copilot,Snyk Code,Learning to Code,17
+GitHub Copilot,Snyk Code,Other Coders,37
+GitHub Copilot,Snyk Code,Professional Developers,152
+GitHub Copilot,Tabnine,Learning to Code,36
+GitHub Copilot,Tabnine,Other Coders,61
+GitHub Copilot,Tabnine,Professional Developers,314
+GitHub Copilot,Visual Studio Intellicode,Learning to Code,136
+GitHub Copilot,Visual Studio Intellicode,Other Coders,367
+GitHub Copilot,Visual Studio Intellicode,Professional Developers,2030
+GitHub Copilot,Whispr AI,Learning to Code,26
+GitHub Copilot,Whispr AI,Other Coders,53
+GitHub Copilot,Whispr AI,Professional Developers,201
+GitHub Copilot,WolframAlpha,Learning to Code,63
+GitHub Copilot,WolframAlpha,Other Coders,227
+GitHub Copilot,WolframAlpha,Professional Developers,678
+GitHub Copilot,You.com,Learning to Code,25
+GitHub Copilot,You.com,Other Coders,43
+GitHub Copilot,You.com,Professional Developers,105
+Google Gemini,Amazon Q,Learning to Code,37
+Google Gemini,Amazon Q,Other Coders,68
+Google Gemini,Amazon Q,Professional Developers,315
+Google Gemini,Andi,Learning to Code,13
+Google Gemini,Andi,Other Coders,13
+Google Gemini,Andi,Professional Developers,32
+Google Gemini,AskCodi,Learning to Code,21
+Google Gemini,AskCodi,Other Coders,20
+Google Gemini,AskCodi,Professional Developers,48
+Google Gemini,Bing AI,Learning to Code,207
+Google Gemini,Bing AI,Other Coders,345
+Google Gemini,Bing AI,Professional Developers,1031
+Google Gemini,ChatGPT,Learning to Code,686
+Google Gemini,ChatGPT,Other Coders,1334
+Google Gemini,ChatGPT,Professional Developers,5753
+Google Gemini,Claude,Learning to Code,140
+Google Gemini,Claude,Other Coders,357
+Google Gemini,Claude,Professional Developers,1128
+Google Gemini,Codeium,Learning to Code,96
+Google Gemini,Codeium,Other Coders,181
+Google Gemini,Codeium,Professional Developers,559
+Google Gemini,Cody,Learning to Code,26
+Google Gemini,Cody,Other Coders,39
+Google Gemini,Cody,Professional Developers,128
+Google Gemini,GitHub Copilot,Learning to Code,399
+Google Gemini,GitHub Copilot,Other Coders,745
+Google Gemini,GitHub Copilot,Professional Developers,3653
+Google Gemini,Google Gemini,Learning to Code,598
+Google Gemini,Google Gemini,Other Coders,1246
+Google Gemini,Google Gemini,Professional Developers,5025
+Google Gemini,Lightning AI,Learning to Code,28
+Google Gemini,Lightning AI,Other Coders,32
+Google Gemini,Lightning AI,Professional Developers,80
+Google Gemini,Meta AI,Learning to Code,103
+Google Gemini,Meta AI,Other Coders,164
+Google Gemini,Meta AI,Professional Developers,571
+Google Gemini,Metaphor,Learning to Code,19
+Google Gemini,Metaphor,Other Coders,18
+Google Gemini,Metaphor,Professional Developers,41
+Google Gemini,Neeva AI,Learning to Code,18
+Google Gemini,Neeva AI,Other Coders,20
+Google Gemini,Neeva AI,Professional Developers,37
+Google Gemini,OpenAI Codex,Learning to Code,49
+Google Gemini,OpenAI Codex,Other Coders,71
+Google Gemini,OpenAI Codex,Professional Developers,204
+Google Gemini,Perplexity AI,Learning to Code,94
+Google Gemini,Perplexity AI,Other Coders,194
+Google Gemini,Perplexity AI,Professional Developers,617
+Google Gemini,Phind,Learning to Code,47
+Google Gemini,Phind,Other Coders,85
+Google Gemini,Phind,Professional Developers,269
+Google Gemini,Quora Poe,Learning to Code,30
+Google Gemini,Quora Poe,Other Coders,44
+Google Gemini,Quora Poe,Professional Developers,96
+Google Gemini,Replit Ghostwriter,Learning to Code,20
+Google Gemini,Replit Ghostwriter,Other Coders,25
+Google Gemini,Replit Ghostwriter,Professional Developers,60
+Google Gemini,Snyk Code,Learning to Code,20
+Google Gemini,Snyk Code,Other Coders,28
+Google Gemini,Snyk Code,Professional Developers,96
+Google Gemini,Tabnine,Learning to Code,62
+Google Gemini,Tabnine,Other Coders,75
+Google Gemini,Tabnine,Professional Developers,299
+Google Gemini,Visual Studio Intellicode,Learning to Code,161
+Google Gemini,Visual Studio Intellicode,Other Coders,289
+Google Gemini,Visual Studio Intellicode,Professional Developers,1039
+Google Gemini,Whispr AI,Learning to Code,34
+Google Gemini,Whispr AI,Other Coders,52
+Google Gemini,Whispr AI,Professional Developers,162
+Google Gemini,WolframAlpha,Learning to Code,72
+Google Gemini,WolframAlpha,Other Coders,204
+Google Gemini,WolframAlpha,Professional Developers,415
+Google Gemini,You.com,Learning to Code,31
+Google Gemini,You.com,Other Coders,44
+Google Gemini,You.com,Professional Developers,120
+Lightning AI,Amazon Q,Learning to Code,8
+Lightning AI,Amazon Q,Other Coders,14
+Lightning AI,Amazon Q,Professional Developers,22
+Lightning AI,Andi,Learning to Code,7
+Lightning AI,Andi,Other Coders,10
+Lightning AI,Andi,Professional Developers,14
+Lightning AI,AskCodi,Learning to Code,10
+Lightning AI,AskCodi,Other Coders,12
+Lightning AI,AskCodi,Professional Developers,14
+Lightning AI,Bing AI,Learning to Code,18
+Lightning AI,Bing AI,Other Coders,14
+Lightning AI,Bing AI,Professional Developers,25
+Lightning AI,ChatGPT,Learning to Code,24
+Lightning AI,ChatGPT,Other Coders,20
+Lightning AI,ChatGPT,Professional Developers,63
+Lightning AI,Claude,Learning to Code,12
+Lightning AI,Claude,Other Coders,14
+Lightning AI,Claude,Professional Developers,35
+Lightning AI,Codeium,Learning to Code,11
+Lightning AI,Codeium,Other Coders,16
+Lightning AI,Codeium,Professional Developers,23
+Lightning AI,Cody,Learning to Code,11
+Lightning AI,Cody,Other Coders,12
+Lightning AI,Cody,Professional Developers,18
+Lightning AI,GitHub Copilot,Learning to Code,21
+Lightning AI,GitHub Copilot,Other Coders,19
+Lightning AI,GitHub Copilot,Professional Developers,46
+Lightning AI,Google Gemini,Learning to Code,16
+Lightning AI,Google Gemini,Other Coders,19
+Lightning AI,Google Gemini,Professional Developers,43
+Lightning AI,Lightning AI,Learning to Code,23
+Lightning AI,Lightning AI,Other Coders,23
+Lightning AI,Lightning AI,Professional Developers,52
+Lightning AI,Meta AI,Learning to Code,16
+Lightning AI,Meta AI,Other Coders,14
+Lightning AI,Meta AI,Professional Developers,32
+Lightning AI,Metaphor,Learning to Code,9
+Lightning AI,Metaphor,Other Coders,11
+Lightning AI,Metaphor,Professional Developers,15
+Lightning AI,Neeva AI,Learning to Code,13
+Lightning AI,Neeva AI,Other Coders,13
+Lightning AI,Neeva AI,Professional Developers,17
+Lightning AI,OpenAI Codex,Learning to Code,14
+Lightning AI,OpenAI Codex,Other Coders,16
+Lightning AI,OpenAI Codex,Professional Developers,26
+Lightning AI,Perplexity AI,Learning to Code,14
+Lightning AI,Perplexity AI,Other Coders,14
+Lightning AI,Perplexity AI,Professional Developers,29
+Lightning AI,Phind,Learning to Code,11
+Lightning AI,Phind,Other Coders,12
+Lightning AI,Phind,Professional Developers,20
+Lightning AI,Quora Poe,Learning to Code,13
+Lightning AI,Quora Poe,Other Coders,10
+Lightning AI,Quora Poe,Professional Developers,16
+Lightning AI,Replit Ghostwriter,Learning to Code,9
+Lightning AI,Replit Ghostwriter,Other Coders,9
+Lightning AI,Replit Ghostwriter,Professional Developers,16
+Lightning AI,Snyk Code,Learning to Code,11
+Lightning AI,Snyk Code,Other Coders,10
+Lightning AI,Snyk Code,Professional Developers,17
+Lightning AI,Tabnine,Learning to Code,12
+Lightning AI,Tabnine,Other Coders,11
+Lightning AI,Tabnine,Professional Developers,18
+Lightning AI,Visual Studio Intellicode,Learning to Code,14
+Lightning AI,Visual Studio Intellicode,Other Coders,15
+Lightning AI,Visual Studio Intellicode,Professional Developers,26
+Lightning AI,Whispr AI,Learning to Code,12
+Lightning AI,Whispr AI,Other Coders,12
+Lightning AI,Whispr AI,Professional Developers,20
+Lightning AI,WolframAlpha,Learning to Code,10
+Lightning AI,WolframAlpha,Other Coders,13
+Lightning AI,WolframAlpha,Professional Developers,18
+Lightning AI,You.com,Learning to Code,10
+Lightning AI,You.com,Other Coders,14
+Lightning AI,You.com,Professional Developers,18
+Meta AI,Amazon Q,Learning to Code,19
+Meta AI,Amazon Q,Other Coders,23
+Meta AI,Amazon Q,Professional Developers,80
+Meta AI,Andi,Learning to Code,11
+Meta AI,Andi,Other Coders,14
+Meta AI,Andi,Professional Developers,19
+Meta AI,AskCodi,Learning to Code,12
+Meta AI,AskCodi,Other Coders,16
+Meta AI,AskCodi,Professional Developers,21
+Meta AI,Bing AI,Learning to Code,55
+Meta AI,Bing AI,Other Coders,70
+Meta AI,Bing AI,Professional Developers,198
+Meta AI,ChatGPT,Learning to Code,116
+Meta AI,ChatGPT,Other Coders,190
+Meta AI,ChatGPT,Professional Developers,741
+Meta AI,Claude,Learning to Code,35
+Meta AI,Claude,Other Coders,73
+Meta AI,Claude,Professional Developers,249
+Meta AI,Codeium,Learning to Code,23
+Meta AI,Codeium,Other Coders,35
+Meta AI,Codeium,Professional Developers,90
+Meta AI,Cody,Learning to Code,16
+Meta AI,Cody,Other Coders,17
+Meta AI,Cody,Professional Developers,31
+Meta AI,GitHub Copilot,Learning to Code,88
+Meta AI,GitHub Copilot,Other Coders,124
+Meta AI,GitHub Copilot,Professional Developers,493
+Meta AI,Google Gemini,Learning to Code,87
+Meta AI,Google Gemini,Other Coders,121
+Meta AI,Google Gemini,Professional Developers,379
+Meta AI,Lightning AI,Learning to Code,21
+Meta AI,Lightning AI,Other Coders,18
+Meta AI,Lightning AI,Professional Developers,36
+Meta AI,Meta AI,Learning to Code,91
+Meta AI,Meta AI,Other Coders,165
+Meta AI,Meta AI,Professional Developers,557
+Meta AI,Metaphor,Learning to Code,10
+Meta AI,Metaphor,Other Coders,15
+Meta AI,Metaphor,Professional Developers,23
+Meta AI,Neeva AI,Learning to Code,11
+Meta AI,Neeva AI,Other Coders,15
+Meta AI,Neeva AI,Professional Developers,20
+Meta AI,OpenAI Codex,Learning to Code,25
+Meta AI,OpenAI Codex,Other Coders,36
+Meta AI,OpenAI Codex,Professional Developers,58
+Meta AI,Perplexity AI,Learning to Code,36
+Meta AI,Perplexity AI,Other Coders,46
+Meta AI,Perplexity AI,Professional Developers,144
+Meta AI,Phind,Learning to Code,17
+Meta AI,Phind,Other Coders,25
+Meta AI,Phind,Professional Developers,48
+Meta AI,Quora Poe,Learning to Code,17
+Meta AI,Quora Poe,Other Coders,20
+Meta AI,Quora Poe,Professional Developers,31
+Meta AI,Replit Ghostwriter,Learning to Code,14
+Meta AI,Replit Ghostwriter,Other Coders,10
+Meta AI,Replit Ghostwriter,Professional Developers,21
+Meta AI,Snyk Code,Learning to Code,11
+Meta AI,Snyk Code,Other Coders,14
+Meta AI,Snyk Code,Professional Developers,31
+Meta AI,Tabnine,Learning to Code,21
+Meta AI,Tabnine,Other Coders,16
+Meta AI,Tabnine,Professional Developers,50
+Meta AI,Visual Studio Intellicode,Learning to Code,43
+Meta AI,Visual Studio Intellicode,Other Coders,66
+Meta AI,Visual Studio Intellicode,Professional Developers,175
+Meta AI,Whispr AI,Learning to Code,21
+Meta AI,Whispr AI,Other Coders,21
+Meta AI,Whispr AI,Professional Developers,54
+Meta AI,WolframAlpha,Learning to Code,23
+Meta AI,WolframAlpha,Other Coders,40
+Meta AI,WolframAlpha,Professional Developers,90
+Meta AI,You.com,Learning to Code,20
+Meta AI,You.com,Other Coders,22
+Meta AI,You.com,Professional Developers,35
+Metaphor,Amazon Q,Learning to Code,8
+Metaphor,Amazon Q,Other Coders,11
+Metaphor,Amazon Q,Professional Developers,15
+Metaphor,Andi,Learning to Code,6
+Metaphor,Andi,Other Coders,6
+Metaphor,Andi,Professional Developers,13
+Metaphor,AskCodi,Learning to Code,7
+Metaphor,AskCodi,Other Coders,8
+Metaphor,AskCodi,Professional Developers,14
+Metaphor,Bing AI,Learning to Code,7
+Metaphor,Bing AI,Other Coders,10
+Metaphor,Bing AI,Professional Developers,19
+Metaphor,ChatGPT,Learning to Code,12
+Metaphor,ChatGPT,Other Coders,9
+Metaphor,ChatGPT,Professional Developers,28
+Metaphor,Claude,Learning to Code,6
+Metaphor,Claude,Other Coders,8
+Metaphor,Claude,Professional Developers,23
+Metaphor,Codeium,Learning to Code,8
+Metaphor,Codeium,Other Coders,10
+Metaphor,Codeium,Professional Developers,16
+Metaphor,Cody,Learning to Code,7
+Metaphor,Cody,Other Coders,9
+Metaphor,Cody,Professional Developers,16
+Metaphor,GitHub Copilot,Learning to Code,9
+Metaphor,GitHub Copilot,Other Coders,9
+Metaphor,GitHub Copilot,Professional Developers,22
+Metaphor,Google Gemini,Learning to Code,9
+Metaphor,Google Gemini,Other Coders,12
+Metaphor,Google Gemini,Professional Developers,23
+Metaphor,Lightning AI,Learning to Code,8
+Metaphor,Lightning AI,Other Coders,8
+Metaphor,Lightning AI,Professional Developers,14
+Metaphor,Meta AI,Learning to Code,8
+Metaphor,Meta AI,Other Coders,10
+Metaphor,Meta AI,Professional Developers,16
+Metaphor,Metaphor,Learning to Code,8
+Metaphor,Metaphor,Other Coders,11
+Metaphor,Metaphor,Professional Developers,24
+Metaphor,Neeva AI,Learning to Code,8
+Metaphor,Neeva AI,Other Coders,11
+Metaphor,Neeva AI,Professional Developers,15
+Metaphor,OpenAI Codex,Learning to Code,8
+Metaphor,OpenAI Codex,Other Coders,10
+Metaphor,OpenAI Codex,Professional Developers,16
+Metaphor,Perplexity AI,Learning to Code,11
+Metaphor,Perplexity AI,Other Coders,10
+Metaphor,Perplexity AI,Professional Developers,19
+Metaphor,Phind,Learning to Code,9
+Metaphor,Phind,Other Coders,9
+Metaphor,Phind,Professional Developers,16
+Metaphor,Quora Poe,Learning to Code,9
+Metaphor,Quora Poe,Other Coders,9
+Metaphor,Quora Poe,Professional Developers,13
+Metaphor,Replit Ghostwriter,Learning to Code,7
+Metaphor,Replit Ghostwriter,Other Coders,7
+Metaphor,Replit Ghostwriter,Professional Developers,13
+Metaphor,Snyk Code,Learning to Code,8
+Metaphor,Snyk Code,Other Coders,8
+Metaphor,Snyk Code,Professional Developers,15
+Metaphor,Tabnine,Learning to Code,7
+Metaphor,Tabnine,Other Coders,9
+Metaphor,Tabnine,Professional Developers,16
+Metaphor,Visual Studio Intellicode,Learning to Code,9
+Metaphor,Visual Studio Intellicode,Other Coders,10
+Metaphor,Visual Studio Intellicode,Professional Developers,14
+Metaphor,Whispr AI,Learning to Code,9
+Metaphor,Whispr AI,Other Coders,8
+Metaphor,Whispr AI,Professional Developers,15
+Metaphor,WolframAlpha,Learning to Code,7
+Metaphor,WolframAlpha,Other Coders,10
+Metaphor,WolframAlpha,Professional Developers,15
+Metaphor,You.com,Learning to Code,7
+Metaphor,You.com,Other Coders,10
+Metaphor,You.com,Professional Developers,15
+Neeva AI,Amazon Q,Learning to Code,6
+Neeva AI,Amazon Q,Other Coders,9
+Neeva AI,Amazon Q,Professional Developers,18
+Neeva AI,Andi,Learning to Code,5
+Neeva AI,Andi,Other Coders,6
+Neeva AI,Andi,Professional Developers,14
+Neeva AI,AskCodi,Learning to Code,5
+Neeva AI,AskCodi,Other Coders,7
+Neeva AI,AskCodi,Professional Developers,16
+Neeva AI,Bing AI,Learning to Code,9
+Neeva AI,Bing AI,Other Coders,14
+Neeva AI,Bing AI,Professional Developers,18
+Neeva AI,ChatGPT,Learning to Code,9
+Neeva AI,ChatGPT,Other Coders,13
+Neeva AI,ChatGPT,Professional Developers,31
+Neeva AI,Claude,Learning to Code,5
+Neeva AI,Claude,Other Coders,9
+Neeva AI,Claude,Professional Developers,25
+Neeva AI,Codeium,Learning to Code,6
+Neeva AI,Codeium,Other Coders,11
+Neeva AI,Codeium,Professional Developers,17
+Neeva AI,Cody,Learning to Code,4
+Neeva AI,Cody,Other Coders,10
+Neeva AI,Cody,Professional Developers,15
+Neeva AI,GitHub Copilot,Learning to Code,9
+Neeva AI,GitHub Copilot,Other Coders,14
+Neeva AI,GitHub Copilot,Professional Developers,26
+Neeva AI,Google Gemini,Learning to Code,8
+Neeva AI,Google Gemini,Other Coders,12
+Neeva AI,Google Gemini,Professional Developers,24
+Neeva AI,Lightning AI,Learning to Code,7
+Neeva AI,Lightning AI,Other Coders,8
+Neeva AI,Lightning AI,Professional Developers,17
+Neeva AI,Meta AI,Learning to Code,6
+Neeva AI,Meta AI,Other Coders,11
+Neeva AI,Meta AI,Professional Developers,17
+Neeva AI,Metaphor,Learning to Code,5
+Neeva AI,Metaphor,Other Coders,9
+Neeva AI,Metaphor,Professional Developers,15
+Neeva AI,Neeva AI,Learning to Code,7
+Neeva AI,Neeva AI,Other Coders,11
+Neeva AI,Neeva AI,Professional Developers,20
+Neeva AI,OpenAI Codex,Learning to Code,8
+Neeva AI,OpenAI Codex,Other Coders,10
+Neeva AI,OpenAI Codex,Professional Developers,19
+Neeva AI,Perplexity AI,Learning to Code,7
+Neeva AI,Perplexity AI,Other Coders,12
+Neeva AI,Perplexity AI,Professional Developers,19
+Neeva AI,Phind,Learning to Code,7
+Neeva AI,Phind,Other Coders,10
+Neeva AI,Phind,Professional Developers,14
+Neeva AI,Quora Poe,Learning to Code,6
+Neeva AI,Quora Poe,Other Coders,7
+Neeva AI,Quora Poe,Professional Developers,16
+Neeva AI,Replit Ghostwriter,Learning to Code,5
+Neeva AI,Replit Ghostwriter,Other Coders,6
+Neeva AI,Replit Ghostwriter,Professional Developers,16
+Neeva AI,Snyk Code,Learning to Code,7
+Neeva AI,Snyk Code,Other Coders,7
+Neeva AI,Snyk Code,Professional Developers,16
+Neeva AI,Tabnine,Learning to Code,7
+Neeva AI,Tabnine,Other Coders,9
+Neeva AI,Tabnine,Professional Developers,18
+Neeva AI,Visual Studio Intellicode,Learning to Code,8
+Neeva AI,Visual Studio Intellicode,Other Coders,10
+Neeva AI,Visual Studio Intellicode,Professional Developers,17
+Neeva AI,Whispr AI,Learning to Code,8
+Neeva AI,Whispr AI,Other Coders,7
+Neeva AI,Whispr AI,Professional Developers,18
+Neeva AI,WolframAlpha,Learning to Code,8
+Neeva AI,WolframAlpha,Other Coders,8
+Neeva AI,WolframAlpha,Professional Developers,21
+Neeva AI,You.com,Learning to Code,6
+Neeva AI,You.com,Other Coders,9
+Neeva AI,You.com,Professional Developers,16
+OpenAI Codex,Amazon Q,Learning to Code,8
+OpenAI Codex,Amazon Q,Other Coders,21
+OpenAI Codex,Amazon Q,Professional Developers,40
+OpenAI Codex,Andi,Learning to Code,6
+OpenAI Codex,Andi,Other Coders,9
+OpenAI Codex,Andi,Professional Developers,19
+OpenAI Codex,AskCodi,Learning to Code,7
+OpenAI Codex,AskCodi,Other Coders,13
+OpenAI Codex,AskCodi,Professional Developers,17
+OpenAI Codex,Bing AI,Learning to Code,17
+OpenAI Codex,Bing AI,Other Coders,45
+OpenAI Codex,Bing AI,Professional Developers,69
+OpenAI Codex,ChatGPT,Learning to Code,37
+OpenAI Codex,ChatGPT,Other Coders,84
+OpenAI Codex,ChatGPT,Professional Developers,219
+OpenAI Codex,Claude,Learning to Code,9
+OpenAI Codex,Claude,Other Coders,32
+OpenAI Codex,Claude,Professional Developers,80
+OpenAI Codex,Codeium,Learning to Code,12
+OpenAI Codex,Codeium,Other Coders,18
+OpenAI Codex,Codeium,Professional Developers,44
+OpenAI Codex,Cody,Learning to Code,6
+OpenAI Codex,Cody,Other Coders,18
+OpenAI Codex,Cody,Professional Developers,23
+OpenAI Codex,GitHub Copilot,Learning to Code,30
+OpenAI Codex,GitHub Copilot,Other Coders,81
+OpenAI Codex,GitHub Copilot,Professional Developers,188
+OpenAI Codex,Google Gemini,Learning to Code,25
+OpenAI Codex,Google Gemini,Other Coders,53
+OpenAI Codex,Google Gemini,Professional Developers,126
+OpenAI Codex,Lightning AI,Learning to Code,10
+OpenAI Codex,Lightning AI,Other Coders,16
+OpenAI Codex,Lightning AI,Professional Developers,27
+OpenAI Codex,Meta AI,Learning to Code,16
+OpenAI Codex,Meta AI,Other Coders,32
+OpenAI Codex,Meta AI,Professional Developers,67
+OpenAI Codex,Metaphor,Learning to Code,6
+OpenAI Codex,Metaphor,Other Coders,12
+OpenAI Codex,Metaphor,Professional Developers,18
+OpenAI Codex,Neeva AI,Learning to Code,7
+OpenAI Codex,Neeva AI,Other Coders,12
+OpenAI Codex,Neeva AI,Professional Developers,20
+OpenAI Codex,OpenAI Codex,Learning to Code,38
+OpenAI Codex,OpenAI Codex,Other Coders,74
+OpenAI Codex,OpenAI Codex,Professional Developers,203
+OpenAI Codex,Perplexity AI,Learning to Code,9
+OpenAI Codex,Perplexity AI,Other Coders,30
+OpenAI Codex,Perplexity AI,Professional Developers,54
+OpenAI Codex,Phind,Learning to Code,7
+OpenAI Codex,Phind,Other Coders,14
+OpenAI Codex,Phind,Professional Developers,28
+OpenAI Codex,Quora Poe,Learning to Code,9
+OpenAI Codex,Quora Poe,Other Coders,11
+OpenAI Codex,Quora Poe,Professional Developers,23
+OpenAI Codex,Replit Ghostwriter,Learning to Code,5
+OpenAI Codex,Replit Ghostwriter,Other Coders,13
+OpenAI Codex,Replit Ghostwriter,Professional Developers,21
+OpenAI Codex,Snyk Code,Learning to Code,7
+OpenAI Codex,Snyk Code,Other Coders,13
+OpenAI Codex,Snyk Code,Professional Developers,26
+OpenAI Codex,Tabnine,Learning to Code,10
+OpenAI Codex,Tabnine,Other Coders,16
+OpenAI Codex,Tabnine,Professional Developers,31
+OpenAI Codex,Visual Studio Intellicode,Learning to Code,17
+OpenAI Codex,Visual Studio Intellicode,Other Coders,45
+OpenAI Codex,Visual Studio Intellicode,Professional Developers,81
+OpenAI Codex,Whispr AI,Learning to Code,10
+OpenAI Codex,Whispr AI,Other Coders,14
+OpenAI Codex,Whispr AI,Professional Developers,42
+OpenAI Codex,WolframAlpha,Learning to Code,10
+OpenAI Codex,WolframAlpha,Other Coders,23
+OpenAI Codex,WolframAlpha,Professional Developers,48
+OpenAI Codex,You.com,Learning to Code,5
+OpenAI Codex,You.com,Other Coders,15
+OpenAI Codex,You.com,Professional Developers,20
+Perplexity AI,Amazon Q,Learning to Code,15
+Perplexity AI,Amazon Q,Other Coders,22
+Perplexity AI,Amazon Q,Professional Developers,79
+Perplexity AI,Andi,Learning to Code,5
+Perplexity AI,Andi,Other Coders,7
+Perplexity AI,Andi,Professional Developers,20
+Perplexity AI,AskCodi,Learning to Code,8
+Perplexity AI,AskCodi,Other Coders,11
+Perplexity AI,AskCodi,Professional Developers,23
+Perplexity AI,Bing AI,Learning to Code,50
+Perplexity AI,Bing AI,Other Coders,95
+Perplexity AI,Bing AI,Professional Developers,225
+Perplexity AI,ChatGPT,Learning to Code,140
+Perplexity AI,ChatGPT,Other Coders,334
+Perplexity AI,ChatGPT,Professional Developers,1255
+Perplexity AI,Claude,Learning to Code,49
+Perplexity AI,Claude,Other Coders,140
+Perplexity AI,Claude,Professional Developers,518
+Perplexity AI,Codeium,Learning to Code,34
+Perplexity AI,Codeium,Other Coders,77
+Perplexity AI,Codeium,Professional Developers,211
+Perplexity AI,Cody,Learning to Code,8
+Perplexity AI,Cody,Other Coders,24
+Perplexity AI,Cody,Professional Developers,58
+Perplexity AI,GitHub Copilot,Learning to Code,74
+Perplexity AI,GitHub Copilot,Other Coders,223
+Perplexity AI,GitHub Copilot,Professional Developers,812
+Perplexity AI,Google Gemini,Learning to Code,84
+Perplexity AI,Google Gemini,Other Coders,182
+Perplexity AI,Google Gemini,Professional Developers,535
+Perplexity AI,Lightning AI,Learning to Code,12
+Perplexity AI,Lightning AI,Other Coders,19
+Perplexity AI,Lightning AI,Professional Developers,43
+Perplexity AI,Meta AI,Learning to Code,32
+Perplexity AI,Meta AI,Other Coders,55
+Perplexity AI,Meta AI,Professional Developers,187
+Perplexity AI,Metaphor,Learning to Code,6
+Perplexity AI,Metaphor,Other Coders,9
+Perplexity AI,Metaphor,Professional Developers,23
+Perplexity AI,Neeva AI,Learning to Code,7
+Perplexity AI,Neeva AI,Other Coders,11
+Perplexity AI,Neeva AI,Professional Developers,19
+Perplexity AI,OpenAI Codex,Learning to Code,12
+Perplexity AI,OpenAI Codex,Other Coders,32
+Perplexity AI,OpenAI Codex,Professional Developers,69
+Perplexity AI,Perplexity AI,Learning to Code,114
+Perplexity AI,Perplexity AI,Other Coders,295
+Perplexity AI,Perplexity AI,Professional Developers,1121
+Perplexity AI,Phind,Learning to Code,16
+Perplexity AI,Phind,Other Coders,45
+Perplexity AI,Phind,Professional Developers,167
+Perplexity AI,Quora Poe,Learning to Code,16
+Perplexity AI,Quora Poe,Other Coders,19
+Perplexity AI,Quora Poe,Professional Developers,57
+Perplexity AI,Replit Ghostwriter,Learning to Code,7
+Perplexity AI,Replit Ghostwriter,Other Coders,11
+Perplexity AI,Replit Ghostwriter,Professional Developers,27
+Perplexity AI,Snyk Code,Learning to Code,9
+Perplexity AI,Snyk Code,Other Coders,14
+Perplexity AI,Snyk Code,Professional Developers,39
+Perplexity AI,Tabnine,Learning to Code,20
+Perplexity AI,Tabnine,Other Coders,30
+Perplexity AI,Tabnine,Professional Developers,98
+Perplexity AI,Visual Studio Intellicode,Learning to Code,34
+Perplexity AI,Visual Studio Intellicode,Other Coders,86
+Perplexity AI,Visual Studio Intellicode,Professional Developers,228
+Perplexity AI,Whispr AI,Learning to Code,12
+Perplexity AI,Whispr AI,Other Coders,18
+Perplexity AI,Whispr AI,Professional Developers,66
+Perplexity AI,WolframAlpha,Learning to Code,18
+Perplexity AI,WolframAlpha,Other Coders,57
+Perplexity AI,WolframAlpha,Professional Developers,155
+Perplexity AI,You.com,Learning to Code,10
+Perplexity AI,You.com,Other Coders,23
+Perplexity AI,You.com,Professional Developers,68
+Phind,Amazon Q,Learning to Code,9
+Phind,Amazon Q,Other Coders,16
+Phind,Amazon Q,Professional Developers,41
+Phind,Andi,Learning to Code,6
+Phind,Andi,Other Coders,6
+Phind,Andi,Professional Developers,14
+Phind,AskCodi,Learning to Code,8
+Phind,AskCodi,Other Coders,9
+Phind,AskCodi,Professional Developers,15
+Phind,Bing AI,Learning to Code,17
+Phind,Bing AI,Other Coders,53
+Phind,Bing AI,Professional Developers,133
+Phind,ChatGPT,Learning to Code,73
+Phind,ChatGPT,Other Coders,200
+Phind,ChatGPT,Professional Developers,830
+Phind,Claude,Learning to Code,25
+Phind,Claude,Other Coders,62
+Phind,Claude,Professional Developers,251
+Phind,Codeium,Learning to Code,27
+Phind,Codeium,Other Coders,62
+Phind,Codeium,Professional Developers,175
+Phind,Cody,Learning to Code,6
+Phind,Cody,Other Coders,13
+Phind,Cody,Professional Developers,49
+Phind,GitHub Copilot,Learning to Code,43
+Phind,GitHub Copilot,Other Coders,105
+Phind,GitHub Copilot,Professional Developers,542
+Phind,Google Gemini,Learning to Code,36
+Phind,Google Gemini,Other Coders,91
+Phind,Google Gemini,Professional Developers,325
+Phind,Lightning AI,Learning to Code,9
+Phind,Lightning AI,Other Coders,10
+Phind,Lightning AI,Professional Developers,23
+Phind,Meta AI,Learning to Code,11
+Phind,Meta AI,Other Coders,28
+Phind,Meta AI,Professional Developers,87
+Phind,Metaphor,Learning to Code,7
+Phind,Metaphor,Other Coders,7
+Phind,Metaphor,Professional Developers,15
+Phind,Neeva AI,Learning to Code,7
+Phind,Neeva AI,Other Coders,9
+Phind,Neeva AI,Professional Developers,15
+Phind,OpenAI Codex,Learning to Code,9
+Phind,OpenAI Codex,Other Coders,10
+Phind,OpenAI Codex,Professional Developers,39
+Phind,Perplexity AI,Learning to Code,19
+Phind,Perplexity AI,Other Coders,47
+Phind,Perplexity AI,Professional Developers,184
+Phind,Phind,Learning to Code,71
+Phind,Phind,Other Coders,197
+Phind,Phind,Professional Developers,781
+Phind,Quora Poe,Learning to Code,8
+Phind,Quora Poe,Other Coders,13
+Phind,Quora Poe,Professional Developers,28
+Phind,Replit Ghostwriter,Learning to Code,7
+Phind,Replit Ghostwriter,Other Coders,9
+Phind,Replit Ghostwriter,Professional Developers,19
+Phind,Snyk Code,Learning to Code,9
+Phind,Snyk Code,Other Coders,16
+Phind,Snyk Code,Professional Developers,27
+Phind,Tabnine,Learning to Code,10
+Phind,Tabnine,Other Coders,24
+Phind,Tabnine,Professional Developers,50
+Phind,Visual Studio Intellicode,Learning to Code,24
+Phind,Visual Studio Intellicode,Other Coders,47
+Phind,Visual Studio Intellicode,Professional Developers,152
+Phind,Whispr AI,Learning to Code,11
+Phind,Whispr AI,Other Coders,10
+Phind,Whispr AI,Professional Developers,38
+Phind,WolframAlpha,Learning to Code,10
+Phind,WolframAlpha,Other Coders,41
+Phind,WolframAlpha,Professional Developers,81
+Phind,You.com,Learning to Code,6
+Phind,You.com,Other Coders,19
+Phind,You.com,Professional Developers,28
+Quora Poe,Amazon Q,Learning to Code,11
+Quora Poe,Amazon Q,Other Coders,17
+Quora Poe,Amazon Q,Professional Developers,27
+Quora Poe,Andi,Learning to Code,7
+Quora Poe,Andi,Other Coders,5
+Quora Poe,Andi,Professional Developers,17
+Quora Poe,AskCodi,Learning to Code,10
+Quora Poe,AskCodi,Other Coders,10
+Quora Poe,AskCodi,Professional Developers,17
+Quora Poe,Bing AI,Learning to Code,21
+Quora Poe,Bing AI,Other Coders,35
+Quora Poe,Bing AI,Professional Developers,46
+Quora Poe,ChatGPT,Learning to Code,37
+Quora Poe,ChatGPT,Other Coders,87
+Quora Poe,ChatGPT,Professional Developers,175
+Quora Poe,Claude,Learning to Code,19
+Quora Poe,Claude,Other Coders,49
+Quora Poe,Claude,Professional Developers,83
+Quora Poe,Codeium,Learning to Code,15
+Quora Poe,Codeium,Other Coders,25
+Quora Poe,Codeium,Professional Developers,51
+Quora Poe,Cody,Learning to Code,9
+Quora Poe,Cody,Other Coders,11
+Quora Poe,Cody,Professional Developers,22
+Quora Poe,GitHub Copilot,Learning to Code,23
+Quora Poe,GitHub Copilot,Other Coders,60
+Quora Poe,GitHub Copilot,Professional Developers,118
+Quora Poe,Google Gemini,Learning to Code,26
+Quora Poe,Google Gemini,Other Coders,59
+Quora Poe,Google Gemini,Professional Developers,95
+Quora Poe,Lightning AI,Learning to Code,12
+Quora Poe,Lightning AI,Other Coders,10
+Quora Poe,Lightning AI,Professional Developers,17
+Quora Poe,Meta AI,Learning to Code,15
+Quora Poe,Meta AI,Other Coders,29
+Quora Poe,Meta AI,Professional Developers,49
+Quora Poe,Metaphor,Learning to Code,8
+Quora Poe,Metaphor,Other Coders,9
+Quora Poe,Metaphor,Professional Developers,13
+Quora Poe,Neeva AI,Learning to Code,8
+Quora Poe,Neeva AI,Other Coders,10
+Quora Poe,Neeva AI,Professional Developers,13
+Quora Poe,OpenAI Codex,Learning to Code,13
+Quora Poe,OpenAI Codex,Other Coders,16
+Quora Poe,OpenAI Codex,Professional Developers,27
+Quora Poe,Perplexity AI,Learning to Code,21
+Quora Poe,Perplexity AI,Other Coders,24
+Quora Poe,Perplexity AI,Professional Developers,59
+Quora Poe,Phind,Learning to Code,10
+Quora Poe,Phind,Other Coders,14
+Quora Poe,Phind,Professional Developers,30
+Quora Poe,Quora Poe,Learning to Code,30
+Quora Poe,Quora Poe,Other Coders,54
+Quora Poe,Quora Poe,Professional Developers,121
+Quora Poe,Replit Ghostwriter,Learning to Code,8
+Quora Poe,Replit Ghostwriter,Other Coders,11
+Quora Poe,Replit Ghostwriter,Professional Developers,17
+Quora Poe,Snyk Code,Learning to Code,9
+Quora Poe,Snyk Code,Other Coders,10
+Quora Poe,Snyk Code,Professional Developers,17
+Quora Poe,Tabnine,Learning to Code,11
+Quora Poe,Tabnine,Other Coders,15
+Quora Poe,Tabnine,Professional Developers,25
+Quora Poe,Visual Studio Intellicode,Learning to Code,20
+Quora Poe,Visual Studio Intellicode,Other Coders,35
+Quora Poe,Visual Studio Intellicode,Professional Developers,58
+Quora Poe,Whispr AI,Learning to Code,12
+Quora Poe,Whispr AI,Other Coders,12
+Quora Poe,Whispr AI,Professional Developers,17
+Quora Poe,WolframAlpha,Learning to Code,12
+Quora Poe,WolframAlpha,Other Coders,27
+Quora Poe,WolframAlpha,Professional Developers,31
+Quora Poe,You.com,Learning to Code,10
+Quora Poe,You.com,Other Coders,17
+Quora Poe,You.com,Professional Developers,27
+Replit Ghostwriter,Amazon Q,Learning to Code,8
+Replit Ghostwriter,Amazon Q,Other Coders,13
+Replit Ghostwriter,Amazon Q,Professional Developers,19
+Replit Ghostwriter,Andi,Learning to Code,7
+Replit Ghostwriter,Andi,Other Coders,6
+Replit Ghostwriter,Andi,Professional Developers,13
+Replit Ghostwriter,AskCodi,Learning to Code,7
+Replit Ghostwriter,AskCodi,Other Coders,8
+Replit Ghostwriter,AskCodi,Professional Developers,14
+Replit Ghostwriter,Bing AI,Learning to Code,14
+Replit Ghostwriter,Bing AI,Other Coders,25
+Replit Ghostwriter,Bing AI,Professional Developers,23
+Replit Ghostwriter,ChatGPT,Learning to Code,22
+Replit Ghostwriter,ChatGPT,Other Coders,47
+Replit Ghostwriter,ChatGPT,Professional Developers,67
+Replit Ghostwriter,Claude,Learning to Code,8
+Replit Ghostwriter,Claude,Other Coders,20
+Replit Ghostwriter,Claude,Professional Developers,36
+Replit Ghostwriter,Codeium,Learning to Code,11
+Replit Ghostwriter,Codeium,Other Coders,11
+Replit Ghostwriter,Codeium,Professional Developers,28
+Replit Ghostwriter,Cody,Learning to Code,4
+Replit Ghostwriter,Cody,Other Coders,9
+Replit Ghostwriter,Cody,Professional Developers,22
+Replit Ghostwriter,GitHub Copilot,Learning to Code,13
+Replit Ghostwriter,GitHub Copilot,Other Coders,36
+Replit Ghostwriter,GitHub Copilot,Professional Developers,54
+Replit Ghostwriter,Google Gemini,Learning to Code,15
+Replit Ghostwriter,Google Gemini,Other Coders,29
+Replit Ghostwriter,Google Gemini,Professional Developers,41
+Replit Ghostwriter,Lightning AI,Learning to Code,7
+Replit Ghostwriter,Lightning AI,Other Coders,10
+Replit Ghostwriter,Lightning AI,Professional Developers,14
+Replit Ghostwriter,Meta AI,Learning to Code,11
+Replit Ghostwriter,Meta AI,Other Coders,15
+Replit Ghostwriter,Meta AI,Professional Developers,23
+Replit Ghostwriter,Metaphor,Learning to Code,7
+Replit Ghostwriter,Metaphor,Other Coders,8
+Replit Ghostwriter,Metaphor,Professional Developers,12
+Replit Ghostwriter,Neeva AI,Learning to Code,6
+Replit Ghostwriter,Neeva AI,Other Coders,9
+Replit Ghostwriter,Neeva AI,Professional Developers,13
+Replit Ghostwriter,OpenAI Codex,Learning to Code,7
+Replit Ghostwriter,OpenAI Codex,Other Coders,13
+Replit Ghostwriter,OpenAI Codex,Professional Developers,16
+Replit Ghostwriter,Perplexity AI,Learning to Code,11
+Replit Ghostwriter,Perplexity AI,Other Coders,13
+Replit Ghostwriter,Perplexity AI,Professional Developers,23
+Replit Ghostwriter,Phind,Learning to Code,10
+Replit Ghostwriter,Phind,Other Coders,13
+Replit Ghostwriter,Phind,Professional Developers,16
+Replit Ghostwriter,Quora Poe,Learning to Code,7
+Replit Ghostwriter,Quora Poe,Other Coders,8
+Replit Ghostwriter,Quora Poe,Professional Developers,16
+Replit Ghostwriter,Replit Ghostwriter,Learning to Code,14
+Replit Ghostwriter,Replit Ghostwriter,Other Coders,25
+Replit Ghostwriter,Replit Ghostwriter,Professional Developers,30
+Replit Ghostwriter,Snyk Code,Learning to Code,8
+Replit Ghostwriter,Snyk Code,Other Coders,7
+Replit Ghostwriter,Snyk Code,Professional Developers,15
+Replit Ghostwriter,Tabnine,Learning to Code,9
+Replit Ghostwriter,Tabnine,Other Coders,15
+Replit Ghostwriter,Tabnine,Professional Developers,16
+Replit Ghostwriter,Visual Studio Intellicode,Learning to Code,13
+Replit Ghostwriter,Visual Studio Intellicode,Other Coders,24
+Replit Ghostwriter,Visual Studio Intellicode,Professional Developers,32
+Replit Ghostwriter,Whispr AI,Learning to Code,9
+Replit Ghostwriter,Whispr AI,Other Coders,9
+Replit Ghostwriter,Whispr AI,Professional Developers,15
+Replit Ghostwriter,WolframAlpha,Learning to Code,7
+Replit Ghostwriter,WolframAlpha,Other Coders,17
+Replit Ghostwriter,WolframAlpha,Professional Developers,24
+Replit Ghostwriter,You.com,Learning to Code,7
+Replit Ghostwriter,You.com,Other Coders,12
+Replit Ghostwriter,You.com,Professional Developers,15
+Snyk Code,Amazon Q,Learning to Code,7
+Snyk Code,Amazon Q,Other Coders,17
+Snyk Code,Amazon Q,Professional Developers,33
+Snyk Code,Andi,Learning to Code,7
+Snyk Code,Andi,Other Coders,6
+Snyk Code,Andi,Professional Developers,14
+Snyk Code,AskCodi,Learning to Code,8
+Snyk Code,AskCodi,Other Coders,10
+Snyk Code,AskCodi,Professional Developers,16
+Snyk Code,Bing AI,Learning to Code,10
+Snyk Code,Bing AI,Other Coders,15
+Snyk Code,Bing AI,Professional Developers,42
+Snyk Code,ChatGPT,Learning to Code,16
+Snyk Code,ChatGPT,Other Coders,33
+Snyk Code,ChatGPT,Professional Developers,184
+Snyk Code,Claude,Learning to Code,7
+Snyk Code,Claude,Other Coders,12
+Snyk Code,Claude,Professional Developers,48
+Snyk Code,Codeium,Learning to Code,11
+Snyk Code,Codeium,Other Coders,12
+Snyk Code,Codeium,Professional Developers,36
+Snyk Code,Cody,Learning to Code,7
+Snyk Code,Cody,Other Coders,11
+Snyk Code,Cody,Professional Developers,20
+Snyk Code,GitHub Copilot,Learning to Code,14
+Snyk Code,GitHub Copilot,Other Coders,27
+Snyk Code,GitHub Copilot,Professional Developers,178
+Snyk Code,Google Gemini,Learning to Code,8
+Snyk Code,Google Gemini,Other Coders,26
+Snyk Code,Google Gemini,Professional Developers,71
+Snyk Code,Lightning AI,Learning to Code,8
+Snyk Code,Lightning AI,Other Coders,8
+Snyk Code,Lightning AI,Professional Developers,16
+Snyk Code,Meta AI,Learning to Code,6
+Snyk Code,Meta AI,Other Coders,10
+Snyk Code,Meta AI,Professional Developers,32
+Snyk Code,Metaphor,Learning to Code,7
+Snyk Code,Metaphor,Other Coders,8
+Snyk Code,Metaphor,Professional Developers,13
+Snyk Code,Neeva AI,Learning to Code,10
+Snyk Code,Neeva AI,Other Coders,9
+Snyk Code,Neeva AI,Professional Developers,15
+Snyk Code,OpenAI Codex,Learning to Code,10
+Snyk Code,OpenAI Codex,Other Coders,11
+Snyk Code,OpenAI Codex,Professional Developers,23
+Snyk Code,Perplexity AI,Learning to Code,10
+Snyk Code,Perplexity AI,Other Coders,12
+Snyk Code,Perplexity AI,Professional Developers,34
+Snyk Code,Phind,Learning to Code,10
+Snyk Code,Phind,Other Coders,14
+Snyk Code,Phind,Professional Developers,21
+Snyk Code,Quora Poe,Learning to Code,9
+Snyk Code,Quora Poe,Other Coders,8
+Snyk Code,Quora Poe,Professional Developers,16
+Snyk Code,Replit Ghostwriter,Learning to Code,8
+Snyk Code,Replit Ghostwriter,Other Coders,7
+Snyk Code,Replit Ghostwriter,Professional Developers,15
+Snyk Code,Snyk Code,Learning to Code,18
+Snyk Code,Snyk Code,Other Coders,35
+Snyk Code,Snyk Code,Professional Developers,156
+Snyk Code,Tabnine,Learning to Code,10
+Snyk Code,Tabnine,Other Coders,13
+Snyk Code,Tabnine,Professional Developers,29
+Snyk Code,Visual Studio Intellicode,Learning to Code,12
+Snyk Code,Visual Studio Intellicode,Other Coders,23
+Snyk Code,Visual Studio Intellicode,Professional Developers,66
+Snyk Code,Whispr AI,Learning to Code,10
+Snyk Code,Whispr AI,Other Coders,9
+Snyk Code,Whispr AI,Professional Developers,19
+Snyk Code,WolframAlpha,Learning to Code,9
+Snyk Code,WolframAlpha,Other Coders,14
+Snyk Code,WolframAlpha,Professional Developers,29
+Snyk Code,You.com,Learning to Code,6
+Snyk Code,You.com,Other Coders,11
+Snyk Code,You.com,Professional Developers,18
+Tabnine,Amazon Q,Learning to Code,15
+Tabnine,Amazon Q,Other Coders,18
+Tabnine,Amazon Q,Professional Developers,91
+Tabnine,Andi,Learning to Code,5
+Tabnine,Andi,Other Coders,7
+Tabnine,Andi,Professional Developers,18
+Tabnine,AskCodi,Learning to Code,7
+Tabnine,AskCodi,Other Coders,12
+Tabnine,AskCodi,Professional Developers,24
+Tabnine,Bing AI,Learning to Code,45
+Tabnine,Bing AI,Other Coders,70
+Tabnine,Bing AI,Professional Developers,223
+Tabnine,ChatGPT,Learning to Code,143
+Tabnine,ChatGPT,Other Coders,243
+Tabnine,ChatGPT,Professional Developers,1165
+Tabnine,Claude,Learning to Code,36
+Tabnine,Claude,Other Coders,66
+Tabnine,Claude,Professional Developers,249
+Tabnine,Codeium,Learning to Code,44
+Tabnine,Codeium,Other Coders,69
+Tabnine,Codeium,Professional Developers,263
+Tabnine,Cody,Learning to Code,13
+Tabnine,Cody,Other Coders,20
+Tabnine,Cody,Professional Developers,57
+Tabnine,GitHub Copilot,Learning to Code,97
+Tabnine,GitHub Copilot,Other Coders,167
+Tabnine,GitHub Copilot,Professional Developers,790
+Tabnine,Google Gemini,Learning to Code,96
+Tabnine,Google Gemini,Other Coders,136
+Tabnine,Google Gemini,Professional Developers,531
+Tabnine,Lightning AI,Learning to Code,7
+Tabnine,Lightning AI,Other Coders,10
+Tabnine,Lightning AI,Professional Developers,29
+Tabnine,Meta AI,Learning to Code,25
+Tabnine,Meta AI,Other Coders,32
+Tabnine,Meta AI,Professional Developers,126
+Tabnine,Metaphor,Learning to Code,6
+Tabnine,Metaphor,Other Coders,10
+Tabnine,Metaphor,Professional Developers,23
+Tabnine,Neeva AI,Learning to Code,7
+Tabnine,Neeva AI,Other Coders,11
+Tabnine,Neeva AI,Professional Developers,22
+Tabnine,OpenAI Codex,Learning to Code,16
+Tabnine,OpenAI Codex,Other Coders,24
+Tabnine,OpenAI Codex,Professional Developers,66
+Tabnine,Perplexity AI,Learning to Code,27
+Tabnine,Perplexity AI,Other Coders,45
+Tabnine,Perplexity AI,Professional Developers,162
+Tabnine,Phind,Learning to Code,19
+Tabnine,Phind,Other Coders,42
+Tabnine,Phind,Professional Developers,91
+Tabnine,Quora Poe,Learning to Code,12
+Tabnine,Quora Poe,Other Coders,16
+Tabnine,Quora Poe,Professional Developers,45
+Tabnine,Replit Ghostwriter,Learning to Code,8
+Tabnine,Replit Ghostwriter,Other Coders,14
+Tabnine,Replit Ghostwriter,Professional Developers,29
+Tabnine,Snyk Code,Learning to Code,10
+Tabnine,Snyk Code,Other Coders,18
+Tabnine,Snyk Code,Professional Developers,49
+Tabnine,Tabnine,Learning to Code,84
+Tabnine,Tabnine,Other Coders,144
+Tabnine,Tabnine,Professional Developers,614
+Tabnine,Visual Studio Intellicode,Learning to Code,64
+Tabnine,Visual Studio Intellicode,Other Coders,102
+Tabnine,Visual Studio Intellicode,Professional Developers,288
+Tabnine,Whispr AI,Learning to Code,14
+Tabnine,Whispr AI,Other Coders,16
+Tabnine,Whispr AI,Professional Developers,53
+Tabnine,WolframAlpha,Learning to Code,25
+Tabnine,WolframAlpha,Other Coders,47
+Tabnine,WolframAlpha,Professional Developers,102
+Tabnine,You.com,Learning to Code,15
+Tabnine,You.com,Other Coders,17
+Tabnine,You.com,Professional Developers,47
+Visual Studio Intellicode,Amazon Q,Learning to Code,13
+Visual Studio Intellicode,Amazon Q,Other Coders,39
+Visual Studio Intellicode,Amazon Q,Professional Developers,184
+Visual Studio Intellicode,Andi,Learning to Code,8
+Visual Studio Intellicode,Andi,Other Coders,8
+Visual Studio Intellicode,Andi,Professional Developers,18
+Visual Studio Intellicode,AskCodi,Learning to Code,12
+Visual Studio Intellicode,AskCodi,Other Coders,11
+Visual Studio Intellicode,AskCodi,Professional Developers,32
+Visual Studio Intellicode,Bing AI,Learning to Code,79
+Visual Studio Intellicode,Bing AI,Other Coders,201
+Visual Studio Intellicode,Bing AI,Professional Developers,769
+Visual Studio Intellicode,ChatGPT,Learning to Code,246
+Visual Studio Intellicode,ChatGPT,Other Coders,614
+Visual Studio Intellicode,ChatGPT,Professional Developers,2951
+Visual Studio Intellicode,Claude,Learning to Code,54
+Visual Studio Intellicode,Claude,Other Coders,115
+Visual Studio Intellicode,Claude,Professional Developers,457
+Visual Studio Intellicode,Codeium,Learning to Code,47
+Visual Studio Intellicode,Codeium,Other Coders,91
+Visual Studio Intellicode,Codeium,Professional Developers,317
+Visual Studio Intellicode,Cody,Learning to Code,12
+Visual Studio Intellicode,Cody,Other Coders,22
+Visual Studio Intellicode,Cody,Professional Developers,74
+Visual Studio Intellicode,GitHub Copilot,Learning to Code,166
+Visual Studio Intellicode,GitHub Copilot,Other Coders,455
+Visual Studio Intellicode,GitHub Copilot,Professional Developers,2638
+Visual Studio Intellicode,Google Gemini,Learning to Code,144
+Visual Studio Intellicode,Google Gemini,Other Coders,288
+Visual Studio Intellicode,Google Gemini,Professional Developers,1088
+Visual Studio Intellicode,Lightning AI,Learning to Code,10
+Visual Studio Intellicode,Lightning AI,Other Coders,14
+Visual Studio Intellicode,Lightning AI,Professional Developers,39
+Visual Studio Intellicode,Meta AI,Learning to Code,37
+Visual Studio Intellicode,Meta AI,Other Coders,65
+Visual Studio Intellicode,Meta AI,Professional Developers,254
+Visual Studio Intellicode,Metaphor,Learning to Code,10
+Visual Studio Intellicode,Metaphor,Other Coders,9
+Visual Studio Intellicode,Metaphor,Professional Developers,27
+Visual Studio Intellicode,Neeva AI,Learning to Code,9
+Visual Studio Intellicode,Neeva AI,Other Coders,10
+Visual Studio Intellicode,Neeva AI,Professional Developers,20
+Visual Studio Intellicode,OpenAI Codex,Learning to Code,27
+Visual Studio Intellicode,OpenAI Codex,Other Coders,42
+Visual Studio Intellicode,OpenAI Codex,Professional Developers,143
+Visual Studio Intellicode,Perplexity AI,Learning to Code,26
+Visual Studio Intellicode,Perplexity AI,Other Coders,70
+Visual Studio Intellicode,Perplexity AI,Professional Developers,247
+Visual Studio Intellicode,Phind,Learning to Code,27
+Visual Studio Intellicode,Phind,Other Coders,39
+Visual Studio Intellicode,Phind,Professional Developers,120
+Visual Studio Intellicode,Quora Poe,Learning to Code,14
+Visual Studio Intellicode,Quora Poe,Other Coders,22
+Visual Studio Intellicode,Quora Poe,Professional Developers,47
+Visual Studio Intellicode,Replit Ghostwriter,Learning to Code,12
+Visual Studio Intellicode,Replit Ghostwriter,Other Coders,12
+Visual Studio Intellicode,Replit Ghostwriter,Professional Developers,36
+Visual Studio Intellicode,Snyk Code,Learning to Code,15
+Visual Studio Intellicode,Snyk Code,Other Coders,23
+Visual Studio Intellicode,Snyk Code,Professional Developers,78
+Visual Studio Intellicode,Tabnine,Learning to Code,41
+Visual Studio Intellicode,Tabnine,Other Coders,62
+Visual Studio Intellicode,Tabnine,Professional Developers,191
+Visual Studio Intellicode,Visual Studio Intellicode,Learning to Code,264
+Visual Studio Intellicode,Visual Studio Intellicode,Other Coders,752
+Visual Studio Intellicode,Visual Studio Intellicode,Professional Developers,3578
+Visual Studio Intellicode,Whispr AI,Learning to Code,18
+Visual Studio Intellicode,Whispr AI,Other Coders,23
+Visual Studio Intellicode,Whispr AI,Professional Developers,76
+Visual Studio Intellicode,WolframAlpha,Learning to Code,36
+Visual Studio Intellicode,WolframAlpha,Other Coders,119
+Visual Studio Intellicode,WolframAlpha,Professional Developers,260
+Visual Studio Intellicode,You.com,Learning to Code,12
+Visual Studio Intellicode,You.com,Other Coders,26
+Visual Studio Intellicode,You.com,Professional Developers,62
+Whispr AI,Amazon Q,Learning to Code,12
+Whispr AI,Amazon Q,Other Coders,13
+Whispr AI,Amazon Q,Professional Developers,45
+Whispr AI,Andi,Learning to Code,7
+Whispr AI,Andi,Other Coders,5
+Whispr AI,Andi,Professional Developers,15
+Whispr AI,AskCodi,Learning to Code,7
+Whispr AI,AskCodi,Other Coders,7
+Whispr AI,AskCodi,Professional Developers,16
+Whispr AI,Bing AI,Learning to Code,14
+Whispr AI,Bing AI,Other Coders,21
+Whispr AI,Bing AI,Professional Developers,60
+Whispr AI,ChatGPT,Learning to Code,27
+Whispr AI,ChatGPT,Other Coders,67
+Whispr AI,ChatGPT,Professional Developers,253
+Whispr AI,Claude,Learning to Code,10
+Whispr AI,Claude,Other Coders,27
+Whispr AI,Claude,Professional Developers,85
+Whispr AI,Codeium,Learning to Code,11
+Whispr AI,Codeium,Other Coders,13
+Whispr AI,Codeium,Professional Developers,53
+Whispr AI,Cody,Learning to Code,5
+Whispr AI,Cody,Other Coders,7
+Whispr AI,Cody,Professional Developers,20
+Whispr AI,GitHub Copilot,Learning to Code,19
+Whispr AI,GitHub Copilot,Other Coders,45
+Whispr AI,GitHub Copilot,Professional Developers,168
+Whispr AI,Google Gemini,Learning to Code,21
+Whispr AI,Google Gemini,Other Coders,40
+Whispr AI,Google Gemini,Professional Developers,119
+Whispr AI,Lightning AI,Learning to Code,10
+Whispr AI,Lightning AI,Other Coders,11
+Whispr AI,Lightning AI,Professional Developers,19
+Whispr AI,Meta AI,Learning to Code,10
+Whispr AI,Meta AI,Other Coders,18
+Whispr AI,Meta AI,Professional Developers,45
+Whispr AI,Metaphor,Learning to Code,7
+Whispr AI,Metaphor,Other Coders,8
+Whispr AI,Metaphor,Professional Developers,17
+Whispr AI,Neeva AI,Learning to Code,7
+Whispr AI,Neeva AI,Other Coders,8
+Whispr AI,Neeva AI,Professional Developers,17
+Whispr AI,OpenAI Codex,Learning to Code,12
+Whispr AI,OpenAI Codex,Other Coders,12
+Whispr AI,OpenAI Codex,Professional Developers,36
+Whispr AI,Perplexity AI,Learning to Code,7
+Whispr AI,Perplexity AI,Other Coders,16
+Whispr AI,Perplexity AI,Professional Developers,54
+Whispr AI,Phind,Learning to Code,7
+Whispr AI,Phind,Other Coders,10
+Whispr AI,Phind,Professional Developers,31
+Whispr AI,Quora Poe,Learning to Code,7
+Whispr AI,Quora Poe,Other Coders,9
+Whispr AI,Quora Poe,Professional Developers,20
+Whispr AI,Replit Ghostwriter,Learning to Code,5
+Whispr AI,Replit Ghostwriter,Other Coders,7
+Whispr AI,Replit Ghostwriter,Professional Developers,17
+Whispr AI,Snyk Code,Learning to Code,7
+Whispr AI,Snyk Code,Other Coders,8
+Whispr AI,Snyk Code,Professional Developers,22
+Whispr AI,Tabnine,Learning to Code,10
+Whispr AI,Tabnine,Other Coders,11
+Whispr AI,Tabnine,Professional Developers,28
+Whispr AI,Visual Studio Intellicode,Learning to Code,13
+Whispr AI,Visual Studio Intellicode,Other Coders,23
+Whispr AI,Visual Studio Intellicode,Professional Developers,67
+Whispr AI,Whispr AI,Learning to Code,19
+Whispr AI,Whispr AI,Other Coders,55
+Whispr AI,Whispr AI,Professional Developers,170
+Whispr AI,WolframAlpha,Learning to Code,8
+Whispr AI,WolframAlpha,Other Coders,20
+Whispr AI,WolframAlpha,Professional Developers,33
+Whispr AI,You.com,Learning to Code,6
+Whispr AI,You.com,Other Coders,11
+Whispr AI,You.com,Professional Developers,22
+WolframAlpha,Amazon Q,Learning to Code,10
+WolframAlpha,Amazon Q,Other Coders,23
+WolframAlpha,Amazon Q,Professional Developers,58
+WolframAlpha,Andi,Learning to Code,6
+WolframAlpha,Andi,Other Coders,7
+WolframAlpha,Andi,Professional Developers,17
+WolframAlpha,AskCodi,Learning to Code,7
+WolframAlpha,AskCodi,Other Coders,10
+WolframAlpha,AskCodi,Professional Developers,19
+WolframAlpha,Bing AI,Learning to Code,34
+WolframAlpha,Bing AI,Other Coders,107
+WolframAlpha,Bing AI,Professional Developers,169
+WolframAlpha,ChatGPT,Learning to Code,109
+WolframAlpha,ChatGPT,Other Coders,467
+WolframAlpha,ChatGPT,Professional Developers,1029
+WolframAlpha,Claude,Learning to Code,31
+WolframAlpha,Claude,Other Coders,103
+WolframAlpha,Claude,Professional Developers,265
+WolframAlpha,Codeium,Learning to Code,24
+WolframAlpha,Codeium,Other Coders,60
+WolframAlpha,Codeium,Professional Developers,93
+WolframAlpha,Cody,Learning to Code,8
+WolframAlpha,Cody,Other Coders,17
+WolframAlpha,Cody,Professional Developers,33
+WolframAlpha,GitHub Copilot,Learning to Code,75
+WolframAlpha,GitHub Copilot,Other Coders,278
+WolframAlpha,GitHub Copilot,Professional Developers,761
+WolframAlpha,Google Gemini,Learning to Code,63
+WolframAlpha,Google Gemini,Other Coders,184
+WolframAlpha,Google Gemini,Professional Developers,414
+WolframAlpha,Lightning AI,Learning to Code,9
+WolframAlpha,Lightning AI,Other Coders,13
+WolframAlpha,Lightning AI,Professional Developers,28
+WolframAlpha,Meta AI,Learning to Code,15
+WolframAlpha,Meta AI,Other Coders,39
+WolframAlpha,Meta AI,Professional Developers,113
+WolframAlpha,Metaphor,Learning to Code,6
+WolframAlpha,Metaphor,Other Coders,11
+WolframAlpha,Metaphor,Professional Developers,18
+WolframAlpha,Neeva AI,Learning to Code,8
+WolframAlpha,Neeva AI,Other Coders,10
+WolframAlpha,Neeva AI,Professional Developers,18
+WolframAlpha,OpenAI Codex,Learning to Code,14
+WolframAlpha,OpenAI Codex,Other Coders,26
+WolframAlpha,OpenAI Codex,Professional Developers,58
+WolframAlpha,Perplexity AI,Learning to Code,20
+WolframAlpha,Perplexity AI,Other Coders,61
+WolframAlpha,Perplexity AI,Professional Developers,147
+WolframAlpha,Phind,Learning to Code,12
+WolframAlpha,Phind,Other Coders,38
+WolframAlpha,Phind,Professional Developers,60
+WolframAlpha,Quora Poe,Learning to Code,9
+WolframAlpha,Quora Poe,Other Coders,19
+WolframAlpha,Quora Poe,Professional Developers,28
+WolframAlpha,Replit Ghostwriter,Learning to Code,9
+WolframAlpha,Replit Ghostwriter,Other Coders,13
+WolframAlpha,Replit Ghostwriter,Professional Developers,29
+WolframAlpha,Snyk Code,Learning to Code,8
+WolframAlpha,Snyk Code,Other Coders,17
+WolframAlpha,Snyk Code,Professional Developers,43
+WolframAlpha,Tabnine,Learning to Code,17
+WolframAlpha,Tabnine,Other Coders,34
+WolframAlpha,Tabnine,Professional Developers,67
+WolframAlpha,Visual Studio Intellicode,Learning to Code,41
+WolframAlpha,Visual Studio Intellicode,Other Coders,112
+WolframAlpha,Visual Studio Intellicode,Professional Developers,259
+WolframAlpha,Whispr AI,Learning to Code,16
+WolframAlpha,Whispr AI,Other Coders,20
+WolframAlpha,Whispr AI,Professional Developers,42
+WolframAlpha,WolframAlpha,Learning to Code,108
+WolframAlpha,WolframAlpha,Other Coders,551
+WolframAlpha,WolframAlpha,Professional Developers,1046
+WolframAlpha,You.com,Learning to Code,6
+WolframAlpha,You.com,Other Coders,20
+WolframAlpha,You.com,Professional Developers,36
+You.com,Amazon Q,Learning to Code,10
+You.com,Amazon Q,Other Coders,18
+You.com,Amazon Q,Professional Developers,33
+You.com,Andi,Learning to Code,7
+You.com,Andi,Other Coders,8
+You.com,Andi,Professional Developers,17
+You.com,AskCodi,Learning to Code,8
+You.com,AskCodi,Other Coders,13
+You.com,AskCodi,Professional Developers,19
+You.com,Bing AI,Learning to Code,25
+You.com,Bing AI,Other Coders,43
+You.com,Bing AI,Professional Developers,92
+You.com,ChatGPT,Learning to Code,47
+You.com,ChatGPT,Other Coders,89
+You.com,ChatGPT,Professional Developers,281
+You.com,Claude,Learning to Code,14
+You.com,Claude,Other Coders,36
+You.com,Claude,Professional Developers,110
+You.com,Codeium,Learning to Code,15
+You.com,Codeium,Other Coders,38
+You.com,Codeium,Professional Developers,75
+You.com,Cody,Learning to Code,11
+You.com,Cody,Other Coders,13
+You.com,Cody,Professional Developers,28
+You.com,GitHub Copilot,Learning to Code,29
+You.com,GitHub Copilot,Other Coders,64
+You.com,GitHub Copilot,Professional Developers,181
+You.com,Google Gemini,Learning to Code,32
+You.com,Google Gemini,Other Coders,65
+You.com,Google Gemini,Professional Developers,177
+You.com,Lightning AI,Learning to Code,10
+You.com,Lightning AI,Other Coders,13
+You.com,Lightning AI,Professional Developers,23
+You.com,Meta AI,Learning to Code,16
+You.com,Meta AI,Other Coders,27
+You.com,Meta AI,Professional Developers,57
+You.com,Metaphor,Learning to Code,6
+You.com,Metaphor,Other Coders,11
+You.com,Metaphor,Professional Developers,17
+You.com,Neeva AI,Learning to Code,8
+You.com,Neeva AI,Other Coders,11
+You.com,Neeva AI,Professional Developers,16
+You.com,OpenAI Codex,Learning to Code,8
+You.com,OpenAI Codex,Other Coders,18
+You.com,OpenAI Codex,Professional Developers,33
+You.com,Perplexity AI,Learning to Code,19
+You.com,Perplexity AI,Other Coders,32
+You.com,Perplexity AI,Professional Developers,83
+You.com,Phind,Learning to Code,9
+You.com,Phind,Other Coders,28
+You.com,Phind,Professional Developers,42
+You.com,Quora Poe,Learning to Code,12
+You.com,Quora Poe,Other Coders,14
+You.com,Quora Poe,Professional Developers,33
+You.com,Replit Ghostwriter,Learning to Code,7
+You.com,Replit Ghostwriter,Other Coders,12
+You.com,Replit Ghostwriter,Professional Developers,22
+You.com,Snyk Code,Learning to Code,7
+You.com,Snyk Code,Other Coders,12
+You.com,Snyk Code,Professional Developers,25
+You.com,Tabnine,Learning to Code,12
+You.com,Tabnine,Other Coders,17
+You.com,Tabnine,Professional Developers,36
+You.com,Visual Studio Intellicode,Learning to Code,15
+You.com,Visual Studio Intellicode,Other Coders,32
+You.com,Visual Studio Intellicode,Professional Developers,78
+You.com,Whispr AI,Learning to Code,9
+You.com,Whispr AI,Other Coders,16
+You.com,Whispr AI,Professional Developers,22
+You.com,WolframAlpha,Learning to Code,8
+You.com,WolframAlpha,Other Coders,24
+You.com,WolframAlpha,Professional Developers,50
+You.com,You.com,Learning to Code,27
+You.com,You.com,Other Coders,70
+You.com,You.com,Professional Developers,173
+Amazon Q,Amazon Q,All Respondents,556
+Amazon Q,Andi,All Respondents,30
+Amazon Q,AskCodi,All Respondents,38
+Amazon Q,Bing AI,All Respondents,168
+Amazon Q,ChatGPT,All Respondents,747
+Amazon Q,Claude,All Respondents,236
+Amazon Q,Codeium,All Respondents,143
+Amazon Q,Cody,All Respondents,62
+Amazon Q,GitHub Copilot,All Respondents,552
+Amazon Q,Google Gemini,All Respondents,352
+Amazon Q,Lightning AI,All Respondents,50
+Amazon Q,Meta AI,All Respondents,121
+Amazon Q,Metaphor,All Respondents,37
+Amazon Q,Neeva AI,All Respondents,40
+Amazon Q,OpenAI Codex,All Respondents,82
+Amazon Q,Perplexity AI,All Respondents,151
+Amazon Q,Phind,All Respondents,79
+Amazon Q,Quora Poe,All Respondents,47
+Amazon Q,Replit Ghostwriter,All Respondents,39
+Amazon Q,Snyk Code,All Respondents,67
+Amazon Q,Tabnine,All Respondents,75
+Amazon Q,Visual Studio Intellicode,All Respondents,185
+Amazon Q,Whispr AI,All Respondents,76
+Amazon Q,WolframAlpha,All Respondents,95
+Amazon Q,You.com,All Respondents,53
+Andi,Amazon Q,All Respondents,32
+Andi,Andi,All Respondents,60
+Andi,AskCodi,All Respondents,35
+Andi,Bing AI,All Respondents,43
+Andi,ChatGPT,All Respondents,59
+Andi,Claude,All Respondents,40
+Andi,Codeium,All Respondents,35
+Andi,Cody,All Respondents,34
+Andi,GitHub Copilot,All Respondents,48
+Andi,Google Gemini,All Respondents,46
+Andi,Lightning AI,All Respondents,31
+Andi,Meta AI,All Respondents,37
+Andi,Metaphor,All Respondents,28
+Andi,Neeva AI,All Respondents,34
+Andi,OpenAI Codex,All Respondents,40
+Andi,Perplexity AI,All Respondents,40
+Andi,Phind,All Respondents,34
+Andi,Quora Poe,All Respondents,31
+Andi,Replit Ghostwriter,All Respondents,31
+Andi,Snyk Code,All Respondents,32
+Andi,Tabnine,All Respondents,28
+Andi,Visual Studio Intellicode,All Respondents,34
+Andi,Whispr AI,All Respondents,30
+Andi,WolframAlpha,All Respondents,32
+Andi,You.com,All Respondents,31
+AskCodi,Amazon Q,All Respondents,33
+AskCodi,Andi,All Respondents,28
+AskCodi,AskCodi,All Respondents,59
+AskCodi,Bing AI,All Respondents,49
+AskCodi,ChatGPT,All Respondents,86
+AskCodi,Claude,All Respondents,49
+AskCodi,Codeium,All Respondents,52
+AskCodi,Cody,All Respondents,47
+AskCodi,GitHub Copilot,All Respondents,62
+AskCodi,Google Gemini,All Respondents,53
+AskCodi,Lightning AI,All Respondents,29
+AskCodi,Meta AI,All Respondents,38
+AskCodi,Metaphor,All Respondents,29
+AskCodi,Neeva AI,All Respondents,34
+AskCodi,OpenAI Codex,All Respondents,41
+AskCodi,Perplexity AI,All Respondents,44
+AskCodi,Phind,All Respondents,36
+AskCodi,Quora Poe,All Respondents,32
+AskCodi,Replit Ghostwriter,All Respondents,32
+AskCodi,Snyk Code,All Respondents,36
+AskCodi,Tabnine,All Respondents,38
+AskCodi,Visual Studio Intellicode,All Respondents,51
+AskCodi,Whispr AI,All Respondents,36
+AskCodi,WolframAlpha,All Respondents,35
+AskCodi,You.com,All Respondents,34
+Bing AI,Amazon Q,All Respondents,260
+Bing AI,Andi,All Respondents,52
+Bing AI,AskCodi,All Respondents,79
+Bing AI,Bing AI,All Respondents,3808
+Bing AI,ChatGPT,All Respondents,4995
+Bing AI,Claude,All Respondents,963
+Bing AI,Codeium,All Respondents,570
+Bing AI,Cody,All Respondents,147
+Bing AI,GitHub Copilot,All Respondents,3364
+Bing AI,Google Gemini,All Respondents,2369
+Bing AI,Lightning AI,All Respondents,116
+Bing AI,Meta AI,All Respondents,634
+Bing AI,Metaphor,All Respondents,66
+Bing AI,Neeva AI,All Respondents,60
+Bing AI,OpenAI Codex,All Respondents,283
+Bing AI,Perplexity AI,All Respondents,603
+Bing AI,Phind,All Respondents,291
+Bing AI,Quora Poe,All Respondents,125
+Bing AI,Replit Ghostwriter,All Respondents,87
+Bing AI,Snyk Code,All Respondents,106
+Bing AI,Tabnine,All Respondents,306
+Bing AI,Visual Studio Intellicode,All Respondents,1465
+Bing AI,Whispr AI,All Respondents,180
+Bing AI,WolframAlpha,All Respondents,528
+Bing AI,You.com,All Respondents,144
+ChatGPT,Amazon Q,All Respondents,901
+ChatGPT,Andi,All Respondents,86
+ChatGPT,AskCodi,All Respondents,135
+ChatGPT,Bing AI,All Respondents,3551
+ChatGPT,ChatGPT,All Respondents,28200
+ChatGPT,Claude,All Respondents,3537
+ChatGPT,Codeium,All Respondents,2003
+ChatGPT,Cody,All Respondents,409
+ChatGPT,GitHub Copilot,All Respondents,15618
+ChatGPT,Google Gemini,All Respondents,8580
+ChatGPT,Lightning AI,All Respondents,227
+ChatGPT,Meta AI,All Respondents,1627
+ChatGPT,Metaphor,All Respondents,98
+ChatGPT,Neeva AI,All Respondents,93
+ChatGPT,OpenAI Codex,All Respondents,709
+ChatGPT,Perplexity AI,All Respondents,1908
+ChatGPT,Phind,All Respondents,981
+ChatGPT,Quora Poe,All Respondents,260
+ChatGPT,Replit Ghostwriter,All Respondents,156
+ChatGPT,Snyk Code,All Respondents,331
+ChatGPT,Tabnine,All Respondents,944
+ChatGPT,Visual Studio Intellicode,All Respondents,4223
+ChatGPT,Whispr AI,All Respondents,479
+ChatGPT,WolframAlpha,All Respondents,1790
+ChatGPT,You.com,All Respondents,321
+Claude,Amazon Q,All Respondents,189
+Claude,Andi,All Respondents,36
+Claude,AskCodi,All Respondents,53
+Claude,Bing AI,All Respondents,482
+Claude,ChatGPT,All Respondents,2732
+Claude,Claude,All Respondents,2360
+Claude,Codeium,All Respondents,399
+Claude,Cody,All Respondents,126
+Claude,GitHub Copilot,All Respondents,1705
+Claude,Google Gemini,All Respondents,1164
+Claude,Lightning AI,All Respondents,68
+Claude,Meta AI,All Respondents,384
+Claude,Metaphor,All Respondents,39
+Claude,Neeva AI,All Respondents,39
+Claude,OpenAI Codex,All Respondents,142
+Claude,Perplexity AI,All Respondents,596
+Claude,Phind,All Respondents,210
+Claude,Quora Poe,All Respondents,110
+Claude,Replit Ghostwriter,All Respondents,56
+Claude,Snyk Code,All Respondents,71
+Claude,Tabnine,All Respondents,170
+Claude,Visual Studio Intellicode,All Respondents,488
+Claude,Whispr AI,All Respondents,133
+Claude,WolframAlpha,All Respondents,320
+Claude,You.com,All Respondents,96
+Codeium,Amazon Q,All Respondents,121
+Codeium,Andi,All Respondents,31
+Codeium,AskCodi,All Respondents,53
+Codeium,Bing AI,All Respondents,348
+Codeium,ChatGPT,All Respondents,1747
+Codeium,Claude,All Respondents,432
+Codeium,Codeium,All Respondents,1892
+Codeium,Cody,All Respondents,103
+Codeium,GitHub Copilot,All Respondents,970
+Codeium,Google Gemini,All Respondents,763
+Codeium,Lightning AI,All Respondents,50
+Codeium,Meta AI,All Respondents,182
+Codeium,Metaphor,All Respondents,37
+Codeium,Neeva AI,All Respondents,39
+Codeium,OpenAI Codex,All Respondents,95
+Codeium,Perplexity AI,All Respondents,294
+Codeium,Phind,All Respondents,216
+Codeium,Quora Poe,All Respondents,75
+Codeium,Replit Ghostwriter,All Respondents,45
+Codeium,Snyk Code,All Respondents,66
+Codeium,Tabnine,All Respondents,169
+Codeium,Visual Studio Intellicode,All Respondents,394
+Codeium,Whispr AI,All Respondents,84
+Codeium,WolframAlpha,All Respondents,152
+Codeium,You.com,All Respondents,87
+Cody,Amazon Q,All Respondents,52
+Cody,Andi,All Respondents,33
+Cody,AskCodi,All Respondents,47
+Cody,Bing AI,All Respondents,103
+Cody,ChatGPT,All Respondents,374
+Cody,Claude,All Respondents,155
+Cody,Codeium,All Respondents,122
+Cody,Cody,All Respondents,303
+Cody,GitHub Copilot,All Respondents,234
+Cody,Google Gemini,All Respondents,188
+Cody,Lightning AI,All Respondents,37
+Cody,Meta AI,All Respondents,76
+Cody,Metaphor,All Respondents,35
+Cody,Neeva AI,All Respondents,37
+Cody,OpenAI Codex,All Respondents,56
+Cody,Perplexity AI,All Respondents,102
+Cody,Phind,All Respondents,77
+Cody,Quora Poe,All Respondents,39
+Cody,Replit Ghostwriter,All Respondents,34
+Cody,Snyk Code,All Respondents,42
+Cody,Tabnine,All Respondents,62
+Cody,Visual Studio Intellicode,All Respondents,116
+Cody,Whispr AI,All Respondents,41
+Cody,WolframAlpha,All Respondents,63
+Cody,You.com,All Respondents,52
+GitHub Copilot,Amazon Q,All Respondents,509
+GitHub Copilot,Andi,All Respondents,56
+GitHub Copilot,AskCodi,All Respondents,80
+GitHub Copilot,Bing AI,All Respondents,1744
+GitHub Copilot,ChatGPT,All Respondents,12104
+GitHub Copilot,Claude,All Respondents,1920
+GitHub Copilot,Codeium,All Respondents,942
+GitHub Copilot,Cody,All Respondents,221
+GitHub Copilot,GitHub Copilot,All Respondents,13722
+GitHub Copilot,Google Gemini,All Respondents,4158
+GitHub Copilot,Lightning AI,All Respondents,142
+GitHub Copilot,Meta AI,All Respondents,827
+GitHub Copilot,Metaphor,All Respondents,64
+GitHub Copilot,Neeva AI,All Respondents,66
+GitHub Copilot,OpenAI Codex,All Respondents,411
+GitHub Copilot,Perplexity AI,All Respondents,1035
+GitHub Copilot,Phind,All Respondents,529
+GitHub Copilot,Quora Poe,All Respondents,136
+GitHub Copilot,Replit Ghostwriter,All Respondents,96
+GitHub Copilot,Snyk Code,All Respondents,206
+GitHub Copilot,Tabnine,All Respondents,411
+GitHub Copilot,Visual Studio Intellicode,All Respondents,2533
+GitHub Copilot,Whispr AI,All Respondents,280
+GitHub Copilot,WolframAlpha,All Respondents,968
+GitHub Copilot,You.com,All Respondents,173
+Google Gemini,Amazon Q,All Respondents,420
+Google Gemini,Andi,All Respondents,58
+Google Gemini,AskCodi,All Respondents,89
+Google Gemini,Bing AI,All Respondents,1583
+Google Gemini,ChatGPT,All Respondents,7773
+Google Gemini,Claude,All Respondents,1625
+Google Gemini,Codeium,All Respondents,836
+Google Gemini,Cody,All Respondents,193
+Google Gemini,GitHub Copilot,All Respondents,4797
+Google Gemini,Google Gemini,All Respondents,6869
+Google Gemini,Lightning AI,All Respondents,140
+Google Gemini,Meta AI,All Respondents,838
+Google Gemini,Metaphor,All Respondents,78
+Google Gemini,Neeva AI,All Respondents,75
+Google Gemini,OpenAI Codex,All Respondents,324
+Google Gemini,Perplexity AI,All Respondents,905
+Google Gemini,Phind,All Respondents,401
+Google Gemini,Quora Poe,All Respondents,170
+Google Gemini,Replit Ghostwriter,All Respondents,105
+Google Gemini,Snyk Code,All Respondents,144
+Google Gemini,Tabnine,All Respondents,436
+Google Gemini,Visual Studio Intellicode,All Respondents,1489
+Google Gemini,Whispr AI,All Respondents,248
+Google Gemini,WolframAlpha,All Respondents,691
+Google Gemini,You.com,All Respondents,195
+Lightning AI,Amazon Q,All Respondents,44
+Lightning AI,Andi,All Respondents,31
+Lightning AI,AskCodi,All Respondents,36
+Lightning AI,Bing AI,All Respondents,57
+Lightning AI,ChatGPT,All Respondents,107
+Lightning AI,Claude,All Respondents,61
+Lightning AI,Codeium,All Respondents,50
+Lightning AI,Cody,All Respondents,41
+Lightning AI,GitHub Copilot,All Respondents,86
+Lightning AI,Google Gemini,All Respondents,78
+Lightning AI,Lightning AI,All Respondents,98
+Lightning AI,Meta AI,All Respondents,62
+Lightning AI,Metaphor,All Respondents,35
+Lightning AI,Neeva AI,All Respondents,43
+Lightning AI,OpenAI Codex,All Respondents,56
+Lightning AI,Perplexity AI,All Respondents,57
+Lightning AI,Phind,All Respondents,43
+Lightning AI,Quora Poe,All Respondents,39
+Lightning AI,Replit Ghostwriter,All Respondents,34
+Lightning AI,Snyk Code,All Respondents,38
+Lightning AI,Tabnine,All Respondents,41
+Lightning AI,Visual Studio Intellicode,All Respondents,55
+Lightning AI,Whispr AI,All Respondents,44
+Lightning AI,WolframAlpha,All Respondents,41
+Lightning AI,You.com,All Respondents,42
+Meta AI,Amazon Q,All Respondents,122
+Meta AI,Andi,All Respondents,44
+Meta AI,AskCodi,All Respondents,49
+Meta AI,Bing AI,All Respondents,323
+Meta AI,ChatGPT,All Respondents,1047
+Meta AI,Claude,All Respondents,357
+Meta AI,Codeium,All Respondents,148
+Meta AI,Cody,All Respondents,64
+Meta AI,GitHub Copilot,All Respondents,705
+Meta AI,Google Gemini,All Respondents,587
+Meta AI,Lightning AI,All Respondents,75
+Meta AI,Meta AI,All Respondents,813
+Meta AI,Metaphor,All Respondents,48
+Meta AI,Neeva AI,All Respondents,46
+Meta AI,OpenAI Codex,All Respondents,119
+Meta AI,Perplexity AI,All Respondents,226
+Meta AI,Phind,All Respondents,90
+Meta AI,Quora Poe,All Respondents,68
+Meta AI,Replit Ghostwriter,All Respondents,45
+Meta AI,Snyk Code,All Respondents,56
+Meta AI,Tabnine,All Respondents,87
+Meta AI,Visual Studio Intellicode,All Respondents,284
+Meta AI,Whispr AI,All Respondents,96
+Meta AI,WolframAlpha,All Respondents,153
+Meta AI,You.com,All Respondents,77
+Metaphor,Amazon Q,All Respondents,34
+Metaphor,Andi,All Respondents,25
+Metaphor,AskCodi,All Respondents,29
+Metaphor,Bing AI,All Respondents,36
+Metaphor,ChatGPT,All Respondents,49
+Metaphor,Claude,All Respondents,37
+Metaphor,Codeium,All Respondents,34
+Metaphor,Cody,All Respondents,32
+Metaphor,GitHub Copilot,All Respondents,40
+Metaphor,Google Gemini,All Respondents,44
+Metaphor,Lightning AI,All Respondents,30
+Metaphor,Meta AI,All Respondents,34
+Metaphor,Metaphor,All Respondents,43
+Metaphor,Neeva AI,All Respondents,34
+Metaphor,OpenAI Codex,All Respondents,34
+Metaphor,Perplexity AI,All Respondents,40
+Metaphor,Phind,All Respondents,34
+Metaphor,Quora Poe,All Respondents,31
+Metaphor,Replit Ghostwriter,All Respondents,27
+Metaphor,Snyk Code,All Respondents,31
+Metaphor,Tabnine,All Respondents,32
+Metaphor,Visual Studio Intellicode,All Respondents,33
+Metaphor,Whispr AI,All Respondents,32
+Metaphor,WolframAlpha,All Respondents,32
+Metaphor,You.com,All Respondents,32
+Neeva AI,Amazon Q,All Respondents,33
+Neeva AI,Andi,All Respondents,25
+Neeva AI,AskCodi,All Respondents,28
+Neeva AI,Bing AI,All Respondents,41
+Neeva AI,ChatGPT,All Respondents,53
+Neeva AI,Claude,All Respondents,39
+Neeva AI,Codeium,All Respondents,34
+Neeva AI,Cody,All Respondents,29
+Neeva AI,GitHub Copilot,All Respondents,49
+Neeva AI,Google Gemini,All Respondents,44
+Neeva AI,Lightning AI,All Respondents,32
+Neeva AI,Meta AI,All Respondents,34
+Neeva AI,Metaphor,All Respondents,29
+Neeva AI,Neeva AI,All Respondents,38
+Neeva AI,OpenAI Codex,All Respondents,37
+Neeva AI,Perplexity AI,All Respondents,38
+Neeva AI,Phind,All Respondents,31
+Neeva AI,Quora Poe,All Respondents,29
+Neeva AI,Replit Ghostwriter,All Respondents,27
+Neeva AI,Snyk Code,All Respondents,30
+Neeva AI,Tabnine,All Respondents,34
+Neeva AI,Visual Studio Intellicode,All Respondents,35
+Neeva AI,Whispr AI,All Respondents,33
+Neeva AI,WolframAlpha,All Respondents,37
+Neeva AI,You.com,All Respondents,31
+OpenAI Codex,Amazon Q,All Respondents,69
+OpenAI Codex,Andi,All Respondents,34
+OpenAI Codex,AskCodi,All Respondents,37
+OpenAI Codex,Bing AI,All Respondents,131
+OpenAI Codex,ChatGPT,All Respondents,340
+OpenAI Codex,Claude,All Respondents,121
+OpenAI Codex,Codeium,All Respondents,74
+OpenAI Codex,Cody,All Respondents,47
+OpenAI Codex,GitHub Copilot,All Respondents,299
+OpenAI Codex,Google Gemini,All Respondents,204
+OpenAI Codex,Lightning AI,All Respondents,53
+OpenAI Codex,Meta AI,All Respondents,115
+OpenAI Codex,Metaphor,All Respondents,36
+OpenAI Codex,Neeva AI,All Respondents,39
+OpenAI Codex,OpenAI Codex,All Respondents,315
+OpenAI Codex,Perplexity AI,All Respondents,93
+OpenAI Codex,Phind,All Respondents,49
+OpenAI Codex,Quora Poe,All Respondents,43
+OpenAI Codex,Replit Ghostwriter,All Respondents,39
+OpenAI Codex,Snyk Code,All Respondents,46
+OpenAI Codex,Tabnine,All Respondents,57
+OpenAI Codex,Visual Studio Intellicode,All Respondents,143
+OpenAI Codex,Whispr AI,All Respondents,66
+OpenAI Codex,WolframAlpha,All Respondents,81
+OpenAI Codex,You.com,All Respondents,40
+Perplexity AI,Amazon Q,All Respondents,116
+Perplexity AI,Andi,All Respondents,32
+Perplexity AI,AskCodi,All Respondents,42
+Perplexity AI,Bing AI,All Respondents,370
+Perplexity AI,ChatGPT,All Respondents,1729
+Perplexity AI,Claude,All Respondents,707
+Perplexity AI,Codeium,All Respondents,322
+Perplexity AI,Cody,All Respondents,90
+Perplexity AI,GitHub Copilot,All Respondents,1109
+Perplexity AI,Google Gemini,All Respondents,801
+Perplexity AI,Lightning AI,All Respondents,74
+Perplexity AI,Meta AI,All Respondents,274
+Perplexity AI,Metaphor,All Respondents,38
+Perplexity AI,Neeva AI,All Respondents,37
+Perplexity AI,OpenAI Codex,All Respondents,113
+Perplexity AI,Perplexity AI,All Respondents,1530
+Perplexity AI,Phind,All Respondents,228
+Perplexity AI,Quora Poe,All Respondents,92
+Perplexity AI,Replit Ghostwriter,All Respondents,45
+Perplexity AI,Snyk Code,All Respondents,62
+Perplexity AI,Tabnine,All Respondents,148
+Perplexity AI,Visual Studio Intellicode,All Respondents,348
+Perplexity AI,Whispr AI,All Respondents,96
+Perplexity AI,WolframAlpha,All Respondents,230
+Perplexity AI,You.com,All Respondents,101
+Phind,Amazon Q,All Respondents,66
+Phind,Andi,All Respondents,26
+Phind,AskCodi,All Respondents,32
+Phind,Bing AI,All Respondents,203
+Phind,ChatGPT,All Respondents,1103
+Phind,Claude,All Respondents,338
+Phind,Codeium,All Respondents,264
+Phind,Cody,All Respondents,68
+Phind,GitHub Copilot,All Respondents,690
+Phind,Google Gemini,All Respondents,452
+Phind,Lightning AI,All Respondents,42
+Phind,Meta AI,All Respondents,126
+Phind,Metaphor,All Respondents,29
+Phind,Neeva AI,All Respondents,31
+Phind,OpenAI Codex,All Respondents,58
+Phind,Perplexity AI,All Respondents,250
+Phind,Phind,All Respondents,1049
+Phind,Quora Poe,All Respondents,49
+Phind,Replit Ghostwriter,All Respondents,35
+Phind,Snyk Code,All Respondents,52
+Phind,Tabnine,All Respondents,84
+Phind,Visual Studio Intellicode,All Respondents,223
+Phind,Whispr AI,All Respondents,59
+Phind,WolframAlpha,All Respondents,132
+Phind,You.com,All Respondents,53
+Quora Poe,Amazon Q,All Respondents,55
+Quora Poe,Andi,All Respondents,29
+Quora Poe,AskCodi,All Respondents,37
+Quora Poe,Bing AI,All Respondents,102
+Quora Poe,ChatGPT,All Respondents,299
+Quora Poe,Claude,All Respondents,151
+Quora Poe,Codeium,All Respondents,91
+Quora Poe,Cody,All Respondents,42
+Quora Poe,GitHub Copilot,All Respondents,201
+Quora Poe,Google Gemini,All Respondents,180
+Quora Poe,Lightning AI,All Respondents,39
+Quora Poe,Meta AI,All Respondents,93
+Quora Poe,Metaphor,All Respondents,30
+Quora Poe,Neeva AI,All Respondents,31
+Quora Poe,OpenAI Codex,All Respondents,56
+Quora Poe,Perplexity AI,All Respondents,104
+Quora Poe,Phind,All Respondents,54
+Quora Poe,Quora Poe,All Respondents,205
+Quora Poe,Replit Ghostwriter,All Respondents,36
+Quora Poe,Snyk Code,All Respondents,36
+Quora Poe,Tabnine,All Respondents,51
+Quora Poe,Visual Studio Intellicode,All Respondents,113
+Quora Poe,Whispr AI,All Respondents,41
+Quora Poe,WolframAlpha,All Respondents,70
+Quora Poe,You.com,All Respondents,54
+Replit Ghostwriter,Amazon Q,All Respondents,40
+Replit Ghostwriter,Andi,All Respondents,26
+Replit Ghostwriter,AskCodi,All Respondents,29
+Replit Ghostwriter,Bing AI,All Respondents,62
+Replit Ghostwriter,ChatGPT,All Respondents,136
+Replit Ghostwriter,Claude,All Respondents,64
+Replit Ghostwriter,Codeium,All Respondents,50
+Replit Ghostwriter,Cody,All Respondents,35
+Replit Ghostwriter,GitHub Copilot,All Respondents,103
+Replit Ghostwriter,Google Gemini,All Respondents,85
+Replit Ghostwriter,Lightning AI,All Respondents,31
+Replit Ghostwriter,Meta AI,All Respondents,49
+Replit Ghostwriter,Metaphor,All Respondents,27
+Replit Ghostwriter,Neeva AI,All Respondents,28
+Replit Ghostwriter,OpenAI Codex,All Respondents,36
+Replit Ghostwriter,Perplexity AI,All Respondents,47
+Replit Ghostwriter,Phind,All Respondents,39
+Replit Ghostwriter,Quora Poe,All Respondents,31
+Replit Ghostwriter,Replit Ghostwriter,All Respondents,69
+Replit Ghostwriter,Snyk Code,All Respondents,30
+Replit Ghostwriter,Tabnine,All Respondents,40
+Replit Ghostwriter,Visual Studio Intellicode,All Respondents,69
+Replit Ghostwriter,Whispr AI,All Respondents,33
+Replit Ghostwriter,WolframAlpha,All Respondents,48
+Replit Ghostwriter,You.com,All Respondents,34
+Snyk Code,Amazon Q,All Respondents,57
+Snyk Code,Andi,All Respondents,27
+Snyk Code,AskCodi,All Respondents,34
+Snyk Code,Bing AI,All Respondents,67
+Snyk Code,ChatGPT,All Respondents,233
+Snyk Code,Claude,All Respondents,67
+Snyk Code,Codeium,All Respondents,59
+Snyk Code,Cody,All Respondents,38
+Snyk Code,GitHub Copilot,All Respondents,219
+Snyk Code,Google Gemini,All Respondents,105
+Snyk Code,Lightning AI,All Respondents,32
+Snyk Code,Meta AI,All Respondents,48
+Snyk Code,Metaphor,All Respondents,28
+Snyk Code,Neeva AI,All Respondents,34
+Snyk Code,OpenAI Codex,All Respondents,44
+Snyk Code,Perplexity AI,All Respondents,56
+Snyk Code,Phind,All Respondents,45
+Snyk Code,Quora Poe,All Respondents,33
+Snyk Code,Replit Ghostwriter,All Respondents,30
+Snyk Code,Snyk Code,All Respondents,209
+Snyk Code,Tabnine,All Respondents,52
+Snyk Code,Visual Studio Intellicode,All Respondents,101
+Snyk Code,Whispr AI,All Respondents,38
+Snyk Code,WolframAlpha,All Respondents,52
+Snyk Code,You.com,All Respondents,35
+Tabnine,Amazon Q,All Respondents,124
+Tabnine,Andi,All Respondents,30
+Tabnine,AskCodi,All Respondents,43
+Tabnine,Bing AI,All Respondents,338
+Tabnine,ChatGPT,All Respondents,1551
+Tabnine,Claude,All Respondents,351
+Tabnine,Codeium,All Respondents,376
+Tabnine,Cody,All Respondents,90
+Tabnine,GitHub Copilot,All Respondents,1054
+Tabnine,Google Gemini,All Respondents,763
+Tabnine,Lightning AI,All Respondents,46
+Tabnine,Meta AI,All Respondents,183
+Tabnine,Metaphor,All Respondents,39
+Tabnine,Neeva AI,All Respondents,40
+Tabnine,OpenAI Codex,All Respondents,106
+Tabnine,Perplexity AI,All Respondents,234
+Tabnine,Phind,All Respondents,152
+Tabnine,Quora Poe,All Respondents,73
+Tabnine,Replit Ghostwriter,All Respondents,51
+Tabnine,Snyk Code,All Respondents,77
+Tabnine,Tabnine,All Respondents,842
+Tabnine,Visual Studio Intellicode,All Respondents,454
+Tabnine,Whispr AI,All Respondents,83
+Tabnine,WolframAlpha,All Respondents,174
+Tabnine,You.com,All Respondents,79
+Visual Studio Intellicode,Amazon Q,All Respondents,236
+Visual Studio Intellicode,Andi,All Respondents,34
+Visual Studio Intellicode,AskCodi,All Respondents,55
+Visual Studio Intellicode,Bing AI,All Respondents,1049
+Visual Studio Intellicode,ChatGPT,All Respondents,3811
+Visual Studio Intellicode,Claude,All Respondents,626
+Visual Studio Intellicode,Codeium,All Respondents,455
+Visual Studio Intellicode,Cody,All Respondents,108
+Visual Studio Intellicode,GitHub Copilot,All Respondents,3259
+Visual Studio Intellicode,Google Gemini,All Respondents,1520
+Visual Studio Intellicode,Lightning AI,All Respondents,63
+Visual Studio Intellicode,Meta AI,All Respondents,356
+Visual Studio Intellicode,Metaphor,All Respondents,46
+Visual Studio Intellicode,Neeva AI,All Respondents,39
+Visual Studio Intellicode,OpenAI Codex,All Respondents,212
+Visual Studio Intellicode,Perplexity AI,All Respondents,343
+Visual Studio Intellicode,Phind,All Respondents,186
+Visual Studio Intellicode,Quora Poe,All Respondents,83
+Visual Studio Intellicode,Replit Ghostwriter,All Respondents,60
+Visual Studio Intellicode,Snyk Code,All Respondents,116
+Visual Studio Intellicode,Tabnine,All Respondents,294
+Visual Studio Intellicode,Visual Studio Intellicode,All Respondents,4594
+Visual Studio Intellicode,Whispr AI,All Respondents,117
+Visual Studio Intellicode,WolframAlpha,All Respondents,415
+Visual Studio Intellicode,You.com,All Respondents,100
+Whispr AI,Amazon Q,All Respondents,70
+Whispr AI,Andi,All Respondents,27
+Whispr AI,AskCodi,All Respondents,30
+Whispr AI,Bing AI,All Respondents,95
+Whispr AI,ChatGPT,All Respondents,347
+Whispr AI,Claude,All Respondents,122
+Whispr AI,Codeium,All Respondents,77
+Whispr AI,Cody,All Respondents,32
+Whispr AI,GitHub Copilot,All Respondents,232
+Whispr AI,Google Gemini,All Respondents,180
+Whispr AI,Lightning AI,All Respondents,40
+Whispr AI,Meta AI,All Respondents,73
+Whispr AI,Metaphor,All Respondents,32
+Whispr AI,Neeva AI,All Respondents,32
+Whispr AI,OpenAI Codex,All Respondents,60
+Whispr AI,Perplexity AI,All Respondents,77
+Whispr AI,Phind,All Respondents,48
+Whispr AI,Quora Poe,All Respondents,36
+Whispr AI,Replit Ghostwriter,All Respondents,29
+Whispr AI,Snyk Code,All Respondents,37
+Whispr AI,Tabnine,All Respondents,49
+Whispr AI,Visual Studio Intellicode,All Respondents,103
+Whispr AI,Whispr AI,All Respondents,244
+Whispr AI,WolframAlpha,All Respondents,61
+Whispr AI,You.com,All Respondents,39
+WolframAlpha,Amazon Q,All Respondents,91
+WolframAlpha,Andi,All Respondents,30
+WolframAlpha,AskCodi,All Respondents,36
+WolframAlpha,Bing AI,All Respondents,310
+WolframAlpha,ChatGPT,All Respondents,1605
+WolframAlpha,Claude,All Respondents,399
+WolframAlpha,Codeium,All Respondents,177
+WolframAlpha,Cody,All Respondents,58
+WolframAlpha,GitHub Copilot,All Respondents,1114
+WolframAlpha,Google Gemini,All Respondents,661
+WolframAlpha,Lightning AI,All Respondents,50
+WolframAlpha,Meta AI,All Respondents,167
+WolframAlpha,Metaphor,All Respondents,35
+WolframAlpha,Neeva AI,All Respondents,36
+WolframAlpha,OpenAI Codex,All Respondents,98
+WolframAlpha,Perplexity AI,All Respondents,228
+WolframAlpha,Phind,All Respondents,110
+WolframAlpha,Quora Poe,All Respondents,56
+WolframAlpha,Replit Ghostwriter,All Respondents,51
+WolframAlpha,Snyk Code,All Respondents,68
+WolframAlpha,Tabnine,All Respondents,118
+WolframAlpha,Visual Studio Intellicode,All Respondents,412
+WolframAlpha,Whispr AI,All Respondents,78
+WolframAlpha,WolframAlpha,All Respondents,1705
+WolframAlpha,You.com,All Respondents,62
+You.com,Amazon Q,All Respondents,61
+You.com,Andi,All Respondents,32
+You.com,AskCodi,All Respondents,40
+You.com,Bing AI,All Respondents,160
+You.com,ChatGPT,All Respondents,417
+You.com,Claude,All Respondents,160
+You.com,Codeium,All Respondents,128
+You.com,Cody,All Respondents,52
+You.com,GitHub Copilot,All Respondents,274
+You.com,Google Gemini,All Respondents,274
+You.com,Lightning AI,All Respondents,46
+You.com,Meta AI,All Respondents,100
+You.com,Metaphor,All Respondents,34
+You.com,Neeva AI,All Respondents,35
+You.com,OpenAI Codex,All Respondents,59
+You.com,Perplexity AI,All Respondents,134
+You.com,Phind,All Respondents,79
+You.com,Quora Poe,All Respondents,59
+You.com,Replit Ghostwriter,All Respondents,41
+You.com,Snyk Code,All Respondents,44
+You.com,Tabnine,All Respondents,65
+You.com,Visual Studio Intellicode,All Respondents,125
+You.com,Whispr AI,All Respondents,47
+You.com,WolframAlpha,All Respondents,82
+You.com,You.com,All Respondents,270
