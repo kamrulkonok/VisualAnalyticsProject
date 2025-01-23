@@ -8,10 +8,10 @@ This repository contains a data-driven visualization project focused on understa
 1. **Circular Packing Chart**: Highlights industries, job roles, and the tools used by professionals in each industry.
 2. **Chord Diagram**: Displays the relationships and preferences between AI-powered tools and developer categories.
 3. **Choropleth map**: Displays the amount of STEM jobs that are forecasted to be created by the CEDEFOP European Agency from 2025 to 2035
-4. ** Finland Horizontal Bar chart**: Displays the normalized amount of STEM jobs that are forecasted to be created in Finland per sector.
-6. ** France Horizontal Bar chart**:  Displays the normalized amount of STEM jobs that are forecasted to be created in France per sector.
-7. ** Luxembourg Horizontal Bar chart**:  Displays the normalized amount of STEM jobs that are forecasted to be created in Luxembourg per sector.
-8. ** Switzerland Horizontal Bar chart**:  Displays the normalized amount of STEM jobs that are forecasted to be created in Switzerland.
+4. **Finland Horizontal Bar chart**: Displays the normalized amount of STEM jobs that are forecasted to be created in Finland per sector.
+6. **France Horizontal Bar chart**:  Displays the normalized amount of STEM jobs that are forecasted to be created in France per sector.
+7. **Luxembourg Horizontal Bar chart**:  Displays the normalized amount of STEM jobs that are forecasted to be created in Luxembourg per sector.
+8. **Switzerland Horizontal Bar chart**:  Displays the normalized amount of STEM jobs that are forecasted to be created in Switzerland.
 
 
 ### Research Question
