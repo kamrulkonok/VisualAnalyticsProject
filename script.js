@@ -19,7 +19,7 @@ const colorScale = d3.scaleSequential()
 // load geojson and json
 Promise.all([
     d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"), // GeoJSON
-    d3.json("normalized_data_employement.json") // JSON with country values
+    d3.json("data/normalized_data_employement.json") // JSON with country values
 ]).then(([geoData, jsonData]) => {
     const valueMap = new Map(jsonData.map(d => [d.country, d.value]));
 
