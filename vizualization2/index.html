@@ -1,19 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Choropleth Map</title>
+  <title>D3 Visualizations</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .visualization {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    #map,
+    #chart,
+    #belgiumChart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    #tooltip {
+      position: absolute;
+      background-color: white;
+      border: 1px solid black;
+      padding: 5px;
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
-  <div>The following Choropleth map shows which countries in the EU have been forecasted will create the most stem jobs from 
-    2025 to 2030 normalized to the labor force of each country</div>  
-  <div> The original dataset forecast the job creation in the EU in a wide area of fields.</div>  
-  <div id="map"></div>
-  <div id="tooltip"></div>
-  <script src="script.js"></script>
+  <h1> European Country STEM Job Market Activity </h1>
+
+  <!-- First Visualization: Choropleth Map -->
+  <div class="visualization">
+    <h1> Map of forecasted STEM Jobs creation 2025-2035 normalized to population</h1>
+    <p>The following Choropleth map shows which countries in the EU have been forecasted to create the most STEM jobs
+      from 2025 to 2035, normalized to the labor force of each country.</p>
+    <div id="map"></div>
+    <div id="tooltip"></div>
+  </div>
+
+  <script>
+    const mapWidth = 960;
+    const mapHeight = 600;
+
+    const projection = d3.geoMercator()
+      .scale(1000)
+      .center([15, 50])
+      .translate([mapWidth / 2, mapHeight / 2]);
+
+    const path = d3.geoPath().projection(projection);
+
+    const mapSvg = d3.select("#map").append("svg")
+      .attr("width", mapWidth)
+      .attr("height", mapHeight);
+
+    const colorScale = d3.scaleSequential()
+      .interpolator(d3.interpolateGnBu)
+      .domain([0, 10000]);
+
+    Promise.all([
+      d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+      d3.json("normalized_data_employement.json")
+    ]).then(([geoData, jsonData]) => {
+      const valueMap = new Map(jsonData.map(d => [d.country, d.value]));
+
+      mapSvg.selectAll("path")
+        .data(geoData.features)
+        .join("path")
+        .attr("d", path)
+        .attr("fill", d => {
+          const value = valueMap.get(d.properties.name);
+          return value !== undefined ? colorScale(value) : "#ccc";
+        })
+        .on("mouseover", function (event, d) {
+          const countryName = d.properties.name;
+          const value = valueMap.get(countryName) || "No data";
+          d3.select(this).style("stroke", "orange").style("stroke-width", 2);
+
+          d3.select("#tooltip")
+            .style("left", `${event.pageX + 10}px`)
+            .style("top", `${event.pageY + 10}px`)
+            .style("display", "inline-block")
+            .html(`<strong>${countryName}</strong><br>Value: ${value}`);
+        })
+        .on("mouseout", function () {
+          d3.select(this).style("stroke", "none");
+          d3.select("#tooltip").style("display", "none");
+        });
+    });
+  </script>
+
+  <!-- Second Visualization: Horizontal Bar Chart -->
+  <div class="visualization">
+    <h2>Horizontal Bar Chart of forecasted STEM Jobs creation 2025-2035 normalized to population</h2>
+    <p>The following horizontal bar chart shows the same normalized STEM job data, sorted by country.</p>
+    <div id="chart"></div>
+  </div>
+
+  <script>
+    const chartWidth = 1000;
+    const chartHeight = 800;
+    const chartMargin = { top: 20, right: 100, bottom: 50, left: 100 };  // Renamed to chartMargin
+
+    const chartSvg = d3.select("#chart").append("svg")
+      .attr("width", chartWidth)
+      .attr("height", chartHeight);
+
+    d3.json("normalized_data_employement.json").then(data => {
+      data.sort((a, b) => b.value - a.value);
+
+      const x = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.value)])
+        .range([chartMargin.left, chartWidth - chartMargin.right]);
+
+      const y = d3.scaleBand()
+        .domain(data.map(d => d.country))
+        .range([chartMargin.top, chartHeight - chartMargin.bottom])
+        .padding(0.1);
+
+      // Add X axis
+      chartSvg.append("g")
+        .attr("transform", `translate(0,${chartHeight - chartMargin.bottom})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .style("text-anchor", "end");
+
+      // Add Y axis
+      chartSvg.append("g")
+        .attr("transform", `translate(${chartMargin.left},0)`)
+        .call(d3.axisLeft(y))
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.5em")
+        .attr("dy", ".15em");
+
+      // Add bars
+      chartSvg.selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", chartMargin.left)
+        .attr("y", d => y(d.country))
+        .attr("width", d => x(d.value) - chartMargin.left)
+        .attr("height", y.bandwidth())
+        .attr("fill", "steelblue");
+
+      // Add value labels
+      chartSvg.selectAll(".label")
+        .data(data)
+        .enter()
+        .append("text")
+        .attr("x", d => x(d.value) + 5)
+        .attr("y", d => y(d.country) + y.bandwidth() / 2)
+        .attr("dy", ".35em")
+        .text(d => d.value)
+        .style("font-size", "12px");
+    });
+  </script>
+
+  <!-- Third Visualization: Finland Chart -->
+  <div class="visualization">
+    <h2>Finland: Horizontal Bar Chart of forecasted STEM Jobs creation 2025-2035 normalized to population</h2>
+    <p>The following horizontal bar chart shows the normalized STEM job data by sector in Finland from 2025 to 2035.</p>
+    <div id="finlandChart"></div>
+  </div>
+
+  <script>
+    const finlandChartWidth = 1000;
+    const finlandChartHeight = 800;
+    const finlandMargin = { top: 20, right: 60, bottom: 50, left: 350 };  // Renamed to finlandMargin
+
+    const finlandChartSvg = d3.select("#finlandChart").append("svg")
+      .attr("width", finlandChartWidth)
+      .attr("height", finlandChartHeight);
+
+    d3.json("employment_sector_occupation_detail_finland.json").then(data => {
+      data.sort((a, b) => b.value - a.value);
+
+      const x = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.value)])
+        .range([finlandMargin.left, finlandChartWidth - finlandMargin.right]);
+
+      const y = d3.scaleBand()
+        .domain(data.map(d => d.sector))
+        .range([finlandMargin.top, finlandChartHeight - finlandMargin.bottom])
+        .padding(0.1);
+
+      // Add X axis
+      finlandChartSvg.append("g")
+        .attr("transform", `translate(0,${finlandChartHeight - finlandMargin.bottom})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .style("text-anchor", "end");
+
+      // Add Y axis
+      finlandChartSvg.append("g")
+        .attr("transform", `translate(${finlandMargin.left},0)`)
+        .call(d3.axisLeft(y))
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.5em")
+        .attr("dy", ".15em");
+
+      // Add bars
+      finlandChartSvg.selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", finlandMargin.left)
+        .attr("y", d => y(d.sector))
+        .attr("width", d => x(d.value) - finlandMargin.left)
+        .attr("height", y.bandwidth())
+        .attr("fill", "steelblue");
+
+      // Add value labels
+      finlandChartSvg.selectAll(".label")
+        .data(data)
+        .enter()
+        .append("text")
+        .attr("x", d => x(d.value) + 5)
+        .attr("y", d => y(d.sector) + y.bandwidth() / 2)
+        .attr("dy", ".35em")
+        .text(d => d.value)
+        .style("font-size", "12px");
+    });
+  </script>
+
+
+  <!-- 5th Visualization: France Chart -->
+  <div class="visualization">
+    <h2>France: Horizontal Bar Chart of forecasted STEM Jobs creation 2025-2035 normalized to population</h2>
+    <p>The following horizontal bar chart shows the normalized STEM job data by sector in France from 2025 to 2035.</p>
+    <div id="franceChart"></div>
+  </div>
+
+  <script>
+    const franceChartWidth = 1000;
+    const franceChartHeight = 800;
+    const franceMargin = { top: 20, right: 60, bottom: 50, left: 350 };  // Renamed to franceMargin
+
+    const franceChartSvg = d3.select("#franceChart").append("svg")
+      .attr("width", franceChartWidth)
+      .attr("height", franceChartHeight);
+
+    d3.json("employment_sector_occupation_detail_france.json").then(data => {
+      data.sort((a, b) => b.value - a.value);
+
+      const x = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.value)])
+        .range([franceMargin.left, franceChartWidth - franceMargin.right]);
+
+      const y = d3.scaleBand()
+        .domain(data.map(d => d.sector))
+        .range([franceMargin.top, franceChartHeight - franceMargin.bottom])
+        .padding(0.1);
+
+      // Add X axis
+      franceChartSvg.append("g")
+        .attr("transform", `translate(0,${franceChartHeight - franceMargin.bottom})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .style("text-anchor", "end");
+
+      // Add Y axis
+      franceChartSvg.append("g")
+        .attr("transform", `translate(${franceMargin.left},0)`)
+        .call(d3.axisLeft(y))
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.5em")
+        .attr("dy", ".15em");
+
+      // Add bars
+      franceChartSvg.selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", franceMargin.left)
+        .attr("y", d => y(d.sector))
+        .attr("width", d => x(d.value) - franceMargin.left)
+        .attr("height", y.bandwidth())
+        .attr("fill", "steelblue");
+
+      // Add value labels
+      franceChartSvg.selectAll(".label")
+        .data(data)
+        .enter()
+        .append("text")
+        .attr("x", d => x(d.value) + 5)
+        .attr("y", d => y(d.sector) + y.bandwidth() / 2)
+        .attr("dy", ".35em")
+        .text(d => d.value)
+        .style("font-size", "12px");
+    });
+  </script>
+
+  <!-- Third Visualization: Luxembourg Chart -->
+  <div class="visualization">
+    <h2>Luxembourg: Horizontal Bar Chart of forecasted STEM Jobs creation 2025-2035 normalized to population</h2>
+    <p>The following horizontal bar chart shows the normalized STEM job data by sector in Luxembourg from 2025 to 2035.
+    </p>
+    <div id="luxembourgChart"></div>
+  </div>
+
+  <script>
+    const luxembourgChartWidth = 1000;
+    const luxembourgChartHeight = 800;
+    const luxembourgMargin = { top: 20, right: 60, bottom: 50, left: 350 };  // Renamed to luxembourgMargin
+
+    const luxembourgChartSvg = d3.select("#luxembourgChart").append("svg")
+      .attr("width", luxembourgChartWidth)
+      .attr("height", luxembourgChartHeight);
+
+    d3.json("employment_sector_occupation_detail_luxembourg.json").then(data => {
+      data.sort((a, b) => b.value - a.value);
+
+      const x = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.value)])
+        .range([luxembourgMargin.left, luxembourgChartWidth - luxembourgMargin.right]);
+
+      const y = d3.scaleBand()
+        .domain(data.map(d => d.sector))
+        .range([luxembourgMargin.top, luxembourgChartHeight - luxembourgMargin.bottom])
+        .padding(0.1);
+
+      // Add X axis
+      luxembourgChartSvg.append("g")
+        .attr("transform", `translate(0,${luxembourgChartHeight - luxembourgMargin.bottom})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .style("text-anchor", "end");
+
+      // Add Y axis
+      luxembourgChartSvg.append("g")
+        .attr("transform", `translate(${luxembourgMargin.left},0)`)
+        .call(d3.axisLeft(y))
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.5em")
+        .attr("dy", ".15em");
+
+      // Add bars
+      luxembourgChartSvg.selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", luxembourgMargin.left)
+        .attr("y", d => y(d.sector))
+        .attr("width", d => x(d.value) - luxembourgMargin.left)
+        .attr("height", y.bandwidth())
+        .attr("fill", "steelblue");
+
+      // Add value labels
+      luxembourgChartSvg.selectAll(".label")
+        .data(data)
+        .enter()
+        .append("text")
+        .attr("x", d => x(d.value) + 5)
+        .attr("y", d => y(d.sector) + y.bandwidth() / 2)
+        .attr("dy", ".35em")
+        .text(d => d.value)
+        .style("font-size", "12px");
+    });
+  </script>
+
+  <!-- Third Visualization: Switzerland Chart -->
+  <div class="visualization">
+    <h2>Switzerland: Horizontal Bar Chart of forecasted STEM Jobs creation 2025-2035 normalized to population</h2>
+    <p>The following horizontal bar chart shows the normalized STEM job data by sector in Switzerland from 2025 to 2035.
+    </p>
+    <div id="switzerlandChart"></div>
+  </div>
+
+  <script>
+    const switzerlandChartWidth = 1000;
+    const switzerlandChartHeight = 800;
+    const switzerlandMargin = { top: 20, right: 60, bottom: 50, left:350 };  // Renamed to switzerlandMargin
+
+    const switzerlandChartSvg = d3.select("#switzerlandChart").append("svg")
+      .attr("width", switzerlandChartWidth)
+      .attr("height", switzerlandChartHeight);
+
+    d3.json("employment_sector_occupation_detail_switzerland.json").then(data => {
+      data.sort((a, b) => b.value - a.value);
+
+      const x = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.value)])
+        .range([switzerlandMargin.left, switzerlandChartWidth - switzerlandMargin.right]);
+
+      const y = d3.scaleBand()
+        .domain(data.map(d => d.sector))
+        .range([switzerlandMargin.top, switzerlandChartHeight - switzerlandMargin.bottom])
+        .padding(0.1);
+
+      // Add X axis
+      switzerlandChartSvg.append("g")
+        .attr("transform", `translate(0,${switzerlandChartHeight - switzerlandMargin.bottom})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .style("text-anchor", "end");
+
+      // Add Y axis
+      switzerlandChartSvg.append("g")
+        .attr("transform", `translate(${switzerlandMargin.left},0)`)
+        .call(d3.axisLeft(y))
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.5em")
+        .attr("dy", ".15em");
+
+      // Add bars
+      switzerlandChartSvg.selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", switzerlandMargin.left)
+        .attr("y", d => y(d.sector))
+        .attr("width", d => x(d.value) - switzerlandMargin.left)
+        .attr("height", y.bandwidth())
+        .attr("fill", "steelblue");
+
+      // Add value labels
+      switzerlandChartSvg.selectAll(".label")
+        .data(data)
+        .enter()
+        .append("text")
+        .attr("x", d => x(d.value) + 5)
+        .attr("y", d => y(d.sector) + y.bandwidth() / 2)
+        .attr("dy", ".35em")
+        .text(d => d.value)
+        .style("font-size", "12px");
+    });
+  </script>
+
+
+
 </body>
+
 </html>
