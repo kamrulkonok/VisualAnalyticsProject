@@ -1,0 +1,82 @@
+[
+    {
+        "sector": "Agriculture, Forestry and Fishing",
+        "value": 0.39
+    },
+    {
+        "sector": "Mining and quarrying",
+        "value": 0.01
+    },
+    {
+        "sector": "Manufacturing",
+        "value": 7.41
+    },
+    {
+        "sector": "Electricity, Gas, Steam and Air Conditioning Supply",
+        "value": 0.69
+    },
+    {
+        "sector": "Water Supply, Sewerage, Waste Management and Remediation Activities",
+        "value": 0.28
+    },
+    {
+        "sector": "Construction ",
+        "value": 0.86
+    },
+    {
+        "sector": "Wholesale and Retail Trade, Repair of Motor Vehicles and Motorcycles",
+        "value": 1.92
+    },
+    {
+        "sector": "Transportation and Storage",
+        "value": 1.18
+    },
+    {
+        "sector": "Accommodation and Food Service Activities",
+        "value": 0.02
+    },
+    {
+        "sector": "Information and Communication",
+        "value": 3.71
+    },
+    {
+        "sector": "Financial and Insurance Activities",
+        "value": 0.50
+    },
+    {
+        "sector": "Real estate",
+        "value": 0.12
+    },
+    {
+        "sector": "Professional, Scientific and Technical Activities",
+        "value": 13.76
+    },
+    {
+        "sector": "Administrative and Support Service Activities",
+        "value": 1.08
+    },
+    {
+        "sector": "Public Administration and Defence, Compulsory Social Security",
+        "value": 2.24
+    },
+    {
+        "sector": "Education ",
+        "value": 1.15
+    },
+    {
+        "sector": "Human Health and Social Work Activities",
+        "value": 0.27
+    },
+    {
+        "sector": "Arts and entertainment",
+        "value": 0.49
+    },
+    {
+        "sector": "Other service activities",
+        "value": 0.40
+    },
+    {
+        "sector": "Activities of Households as Employers",
+        "value": 0.08
+    }
+]
